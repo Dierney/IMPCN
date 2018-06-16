@@ -65,4 +65,6 @@ IMPCN是个非常神奇的模组......
 - Terraria.Localization.Content.zh-Hans.Main  
 - Terraria.Localization.Content.zh-Hans.NPCs  
 - Terraria.Localization.Content.zh-Hans.Projectiles  
-- Terraria.Localization.Content.zh-Hans.Town
+- Terraria.Localization.Content.zh-Hans.Town  
+
+**Waiting for the English translation of this info!**
