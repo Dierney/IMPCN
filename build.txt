@@ -1,0 +1,10 @@
+﻿displayName = IMPCN (Improvement of Chinese language)
+author = 抗药又坚硬汉化组 (SBMW GROUP), jopojelly
+version = 0.1
+side = Client
+hideResources = false
+hideCode = false
+includeSource = true
+includePDB = true
+buildIgnore = *.csproj, *.sln, obj\*, bin\*, *.suo, *.user, .git\*, .vs\*, Libraries\*
+homepage = https://tieba.baidu.com/terraria
