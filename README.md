@@ -51,7 +51,7 @@ IMPCN是个非常神奇的模组......
 - 总策划：星陨玫瑰（Dierney）  
 - 中文改良：星陨玫瑰，火，黎执，Rebuild，小藜  
 - 模组编写：jopojelly，星陨玫瑰，叶凌，DXTsT，Rebuild，流光  
-(以上除jopojelly外,均为抗药又坚硬汉化组成员)  
+(以上除jopojelly外，均为抗药又坚硬汉化组成员)  
 
 ## 联系方式  
 - QQ：592853500  
