@@ -7,4 +7,4 @@ hideCode = false
 includeSource = true
 includePDB = true
 buildIgnore = *.csproj, *.sln, obj\*, bin\*, *.suo, *.user, .git\*, .vs\*, Libraries\*
-homepage = https://tieba.baidu.com/terraria
+homepage = https://github.com/Dierney/IMPCN
