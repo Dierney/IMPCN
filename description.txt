@@ -1,8 +1,67 @@
+[c/DDA0DD:IMPCN is a very magical mod...]
+[c/DDA0DD:It improved the Chinese and made it more perfect!]
+[c/00FFFF:"The official Chinese is so sucked!"]
+
+[i:29][c/FF0000:It only applies to Chinese players.][i:29]
+
+[i:191][c/00FF00:What is the IMPCN?]
+[c/A020F0:(Waiting for the English translation...)]
+
+[i:191][c/00FF00:Why made the IMPCN?]
+[c/A020F0:(Waiting for the English translation...)]
+
+[i:191][c/00FF00:What are the characteristics of this version?]
+[c/A020F0:(Waiting for the English translation...)]
+
+[i:75][c/FFD700:Completed Projects][i:75]
+[i:23]Main&Menu
+[i:23]Tooltips
+[i:23]MapLegend
+[i:23]NpcName
+[i:23]BuffName&Tip
+[i:23]Projectiles
+
+[i:75][c/FFD700:Unfinished Projects][i:75]
+[i:23]ItemName(Small)&Tip
+[i:23]AchievementName＆Tip(Pending)
+[i:23]TownNpcChat(Small)
+[i:23]OtherSmallMisc
+
+[i:3203]Replace Files[i:3203]
+[i:3828]Terraria.Localization.Content.en-US.Main
+[i:3828]Terraria.Localization.Content.zh-Hans.Game
+[i:3828]Terraria.Localization.Content.zh-Hans.Items
+[i:3828]Terraria.Localization.Content.zh-Hans.Legacy
+[i:3828]Terraria.Localization.Content.zh-Hans.Main
+[i:3828]Terraria.Localization.Content.zh-Hans.NPCs
+[i:3828]Terraria.Localization.Content.zh-Hans.Projectiles
+[i:3828]Terraria.Localization.Content.zh-Hans.tModLoader
+[i:3828]Terraria.Localization.Content.zh-Hans.Town
+
+[i:361][c/FFD700:Others][i:361]
+[i:1913]This version cannot replace the title.
+[i:1913]The source code for this mod is the fully open source and you can use the same code to try to replace other languages.
+
+[i:2442][c/FFD700:Known Problem][i:2442]
+[i:1344]If you re-select the language will restore the vanilla Chinese.
+[i:1344]Only disable the mod and restart the game to restore the vanilla Chinese.
+
+[i:487][c/FFD700:Staffs][i:487]
+[i:3461]Total Planner: 星陨玫瑰（Dierney）
+[i:3461]Improve Chinese: 星陨玫瑰, 火, 黎执, Rebuild, 小藜
+[i:3461]Mod Coding: jopojelly, 星陨玫瑰, 叶凌, DXTsT, Rebuild, 流光
+[c/FFDEAD:(Except for jopojelly, are all staffs of SBMW)]
+
+[i:3120][c/FFD700:Changelog][i:3120]
+[c/A020F0:(Waiting for the English translation...)]
+
+[c/FFA500:#We want to provide better text for this!!!]
+===========================================
 [c/DDA0DD:IMPCN是个非常神奇的模组......]
 [c/DDA0DD:它改良了原版中文，使其翻译更加完美！]
 [c/00FFFF:“官方中文真是太糟糕了！”]
 
-[i:29][c/FF0000:它仅供中国玩家使用][i:29]
+[i:29][c/FF0000:它仅适用于中国玩家][i:29]
 
 [i:191][c/00FF00:什么是改良中文？]
 顾名思义，改良中文就是官中中文的改良版。它的改良几乎是全方面的，需对所有原版文本进行审阅，并将官中中文的中翻译错误或其形，意，神，包括音等不符的部分修正，并使其更贴近以前或更好的翻译，最终达到信，达，雅皆具的境界。这将是个工程量巨大的项目，它的改良几乎是全方面的，目前预计修正的内容主要包括：全界面，文字提示，地图图例，物品，抛射物，NPC，BUFF，成就，提示等。
@@ -17,7 +76,7 @@
 [i:23]全界面
 [i:23]文字提示
 [i:23]地图图例
-[i:23]NPC名称＆对话
+[i:23]NPC名称
 [i:23]BUFF名称＆提示
 [i:23]抛射物名称
 
@@ -29,11 +88,11 @@
 
 [i:361][c/FFD700:其他备注][i:361]
 [i:1913]该版本无法实现游戏标题替换。
-[i:1913]该模组的源代码(不包括改良文本)都是完全开源的，你可以使用相同的代码来尝试实现其他语言的替换。
+[i:1913]该模组的源代码都是完全开源的，你可以使用相同的代码来尝试实现其他语言的替换。
 
 [i:2442][c/FFD700:已知问题][i:2442]
-[i:1344]重新选择语言会恢复替换文件
-[i:1344]禁用后重启游戏才能恢复官中
+[i:1344]如果重新选择语言会恢复原版中文
+[i:1344]需要禁用并重启游戏才能原版中文
 
 [i:487][c/FFD700:制作成员][i:487]
 [i:3461]总策划：星陨玫瑰（Dierney）
@@ -57,6 +116,10 @@
 
 [i:3120][c/FFD700:更新日志][i:3120]
 [c/1E90FF:<模组>]
+=== v0.3 ===
+-添加部分英文介绍(我们需要为此提供更好的文本!)
+-修改部分介绍
+
 === v0.2 ===
 -提交Github访问令牌
 -在模组浏览器中显示图标
@@ -73,5 +136,3 @@
 === v0.92 ===
 (2018.6.16)
 -新增＆润色＆修正＆修改部分文本
-===========================================
-[c/A020F0:Waiting for the English translation of this info...]
