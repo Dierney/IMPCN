@@ -28,7 +28,6 @@
 [i:23]OtherSmallMisc
 
 [i:3203]Replace Files[i:3203]
-[i:3828]Terraria.Localization.Content.en-US.Main
 [i:3828]Terraria.Localization.Content.zh-Hans.Game
 [i:3828]Terraria.Localization.Content.zh-Hans.Items
 [i:3828]Terraria.Localization.Content.zh-Hans.Legacy
@@ -51,6 +50,11 @@
 [i:3461]Improve Chinese: 星陨玫瑰, 火, 黎执, Rebuild, 小藜
 [i:3461]Mod Coding: jopojelly, 星陨玫瑰, 叶凌, DXTsT, Rebuild, 流光
 [c/FFDEAD:(Except for jopojelly, are all Members of the SBMW)]
+
+[i:393][c/FFD700:Contacts][i:393]
+[i:2374]QQ：592853500
+[i:2374]E-mail：dierney@foxmail.com
+[i:2374]Discord：Dierney#0792
 
 [i:3120][c/FFD700:Changelog][i:3120]
 [c/A020F0:(Waiting for the English translation...)]
