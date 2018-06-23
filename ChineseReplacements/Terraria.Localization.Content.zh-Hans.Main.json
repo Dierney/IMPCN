@@ -424,7 +424,7 @@
 	},
 	"Game": {
 		"Actuators": "促动器",
-		"BallBounceResult": "触地前,拍打{0}总{1}次!",
+		"BallBounceResult": "触地前,拍打{0}共{1}次!",
 		"BedObstructed": "你的床被挡住了.",
 		"BlueWires": "蓝色电线",
 		"DroppedCoins": "掉落 {0}",
