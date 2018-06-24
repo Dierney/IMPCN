@@ -32,7 +32,6 @@
 [i:3828]Terraria.Localization.Content.zh-Hans.Main
 [i:3828]Terraria.Localization.Content.zh-Hans.NPCs
 [i:3828]Terraria.Localization.Content.zh-Hans.Projectiles
-[i:3828]Terraria.Localization.Content.zh-Hans.tModLoader
 [i:3828]Terraria.Localization.Content.zh-Hans.Town
 
 [i:361][c/FFD700:Others][i:361]
