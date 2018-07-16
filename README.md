@@ -39,7 +39,7 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 - This version cannot replace the title.  
 - The source code for this mod is the fully open source and you can use the same code to try to replace other languages.  
 
-## Known Problem  
+## Known Issues  
 - If you re-select the language will restore vanilla Chinese.  
 - Only by disabling the mod and restart the game can you restore  vanilla Chinese.  
 
@@ -49,7 +49,7 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 - Mod Coding: jopojelly, 星陨玫瑰, 叶凌, DXTsT, Rebuild, 流光  
 (Except for jopojelly, are all Members of the SBMW)  
 
-## Special Thanks  
+## Credits  
 - @onikwuthkro - English translation
 
 ## Contacts  
