@@ -49,7 +49,7 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 - Mod Coding: jopojelly, 星陨玫瑰, 叶凌, DXTsT, Rebuild, 流光  
 (Except for jopojelly, are all Members of the SBMW)  
 
-## Credits  
+## Special Thanks  
 - @onikwuthkro - English translation
 
 ## Contacts  
