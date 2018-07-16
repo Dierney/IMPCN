@@ -7,7 +7,7 @@ It improves and polishes the official Chinese translation!
 [i:191][c/00FF00:What is IMPCN?]
 As the name suggests, IMPCN is the better version of official Chinese Translation. It improves almost every aspect of the official translation. To revamp the official Chinese translation, we would review all original texts and rectify all incorrect, misleading and mistaken translations, including those that do not match pronounciation. Hoping that it would be close to old or better translations. Ultimately close to the Faithfulness, Expressiveness and Gracefulness standard. This project is certain to be taking huge amount of dedication, estimated content to be translated and/or corrected includes: Interface, Tooltips, Map Legends, Items, Projectiles, NPC, BUFF, Achievements, Conversations, Tips, etc.
 
-[i:191][c/00FF00:Why do you start this project?]
+[i:191][c/00FF00:Why start this project?]
 As we all know, the official Chinese translation is so poor that it is suspected to be the work of machine translation. As well as being used to old translations. Many of the Chinese player base has aired their dissatisfaction. Re-Logic admitted the unacceptable quality of Chinese Translation and created a thread on the official forum to collect improper translations, thus making rectifications. It was, however, disappointing that it came with little success. Actually, long before official Chinese translation is added into the game, our team has been working on Chinese translation for version 1.3.3, and kept updating the unofficial translation untill 1.3.5 was released. Not long ago, some members from our team has contributed to make an improved translation for version 1.3.5.1. It hasn't been updated to versions after 1.3.5.1 however. As such, to answer our player base's pleas, we are determined to start IMPCN, with improvements.
 
 [i:191][c/00FF00:What are the characteristics of this version?]
@@ -23,7 +23,7 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [i:23]Projectiles
 
 [i:75][c/FFD700:Unfinished Projects][i:75]
-[i:23]ItemName(Small)&Tip
+[i:23]ItemTips
 
 [i:3203]Replace Files[i:3203]
 [i:3828]Terraria.Localization.Content.zh-Hans.Game
@@ -40,13 +40,16 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 
 [i:2442][c/FFD700:Known Problem][i:2442]
 [i:1344]If you re-select the language will restore vanilla Chinese.
-[i:1344]Only by disabling the mod and restart the game can you restore  vanilla Chinese.
+[i:1344]Only by disabling the mod and restart the game can you restore vanilla Chinese.
 
 [i:487][c/FFD700:Staffs][i:487]
-[i:3461]Total Planner: 星陨玫瑰(Dierney)
+[i:3461]Total Planner: 星陨玫瑰 (Dierney)
 [i:3461]Improve Chinese: 星陨玫瑰, 火, 黎执, Rebuild, 小藜
 [i:3461]Mod Coding: jopojelly, 星陨玫瑰, 叶凌, DXTsT, Rebuild, 流光
 [c/FFDEAD:(Except for jopojelly, are all Members of the SBMW)]
+
+[i:1920][c/FFD700:Credits][i:1920]
+[i:1869]@onikwuthkro - English translation
 
 [i:393][c/FFD700:Contacts][i:393]
 [i:2374]QQ：592853500
@@ -97,6 +100,9 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [i:3461]模组编写：jopojelly，星陨玫瑰，叶凌，DXTsT，Rebuild，流光
 [c/FFDEAD:(除jopojelly外，均为抗药又坚硬汉化组成员)]
 
+[i:1920][c/FFD700:特别鸣谢][i:1920]
+[i:1869]@onikwuthkro - 英文翻译
+
 [i:393][c/FFD700:联系方式][i:393]
 [i:2374]QQ：592853500
 [i:2374]E-mail：dierney@foxmail.com
@@ -113,6 +119,12 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 
 [i:3120][c/FFD700:更新日志][i:3120]
 [c/1E90FF:<模组>]
+=== v0.6 ===
+(2018.7.16)
+-更新tML版本至v0.10.1.5
+-更新<改良中文>
+-添加[特别鸣谢]专栏
+
 === v0.5 ===
 (2018.7.3)
 -添加英文介绍 - 非常感谢onikwuthkro
@@ -142,6 +154,12 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 -该版本仅用于测试
 
 [c/1E90FF:<改良中文>]
+=== v0.94 ===
+(2018.7.16)
+-已完全·物品名称
+-初步审批所有文本
+(下个版本将基本完善)
+
 === v0.93 ===
 (2018.6.24)
 -已完成·成就名称＆提示文本

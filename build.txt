@@ -1,6 +1,6 @@
 ﻿displayName = IMPCN (Improvement of Chinese language)
 author = 抗药又坚硬汉化组 (SBMW GROUP), jopojelly
-version = 0.5
+version = 0.6
 side = Client
 hideResources = false
 hideCode = false
