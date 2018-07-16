@@ -1,6 +1,6 @@
 # IMPCN
-IMPCN is a magical mod...]
-It improves and polishes the official Chinese translation!]  
+IMPCN is a magical mod...  
+It improves and polishes the official Chinese translation!  
 ~~"The official Chinese Translation sucks!"~~  
 
 **\*It only applies to Chinese players\***
@@ -8,7 +8,7 @@ It improves and polishes the official Chinese translation!]
 ## What is IMPCN?
 As the name suggests, IMPCN is the better version of official Chinese Translation. It improves almost every aspect of the official translation. To revamp the official Chinese translation, we would review all original texts and rectify all incorrect, misleading and mistaken translations, including those that do not match pronounciation. Hoping that it would be close to old or better translations. Ultimately close to the Faithfulness, Expressiveness and Gracefulness standard. This project is certain to be taking huge amount of dedication, estimated content to be translated and/or corrected includes: Interface, Tooltips, Map Legends, Items, Projectiles, NPC, BUFF, Achievements, Conversations, Tips, etc.
 
-## Why do you start this project?  
+## Why start this project?  
 As we all know, the official Chinese translation is so poor that it is suspected to be the work of machine translation. As well as being used to old translations. Many of the Chinese player base has aired their dissatisfaction. Re-Logic admitted the unacceptable quality of Chinese Translation and created a thread on the official forum to collect improper translations, thus making rectifications. It was, however, disappointing that it came with little success. Actually, long before official Chinese translation is added into the game, our team has been working on Chinese translation for version 1.3.3, and kept updating the unofficial translation untill 1.3.5 was released. Not long ago, some members from our team has contributed to make an improved translation for version 1.3.5.1. It hasn't been updated to versions after 1.3.5.1 however. As such, to answer our player base's pleas, we are determined to start IMPCN, with improvements.
 
 ## What are the characteristics of this version?  
@@ -24,7 +24,7 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 - Projectiles  
 
 ## Unfinished Projects  
-- ItemName(Small)&Tip  
+- ItemTips  
 
 ## Replace Files  
 - Terraria.Localization.Content.zh-Hans.Game  
@@ -44,10 +44,13 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 - Only by disabling the mod and restart the game can you restore  vanilla Chinese.  
 
 ## Staffs  
-- Total Planner: 星陨玫瑰(Dierney)  
+- Total Planner: 星陨玫瑰 (Dierney)  
 - Improve Chinese: 星陨玫瑰, 火, 黎执, Rebuild, 小藜  
 - Mod Coding: jopojelly, 星陨玫瑰, 叶凌, DXTsT, Rebuild, 流光  
 (Except for jopojelly, are all Members of the SBMW)  
+
+## Credits  
+- @onikwuthkro - English translation
 
 ## Contacts  
 - QQ：592853500  
@@ -57,8 +60,6 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 ## Changelog  
 (Waiting for the English translation...)  
    
-**\# We want to provide better text for this!!!**
-
 # \=======================================
 
 IMPCN是个非常神奇的模组......  
@@ -86,7 +87,7 @@ IMPCN是个非常神奇的模组......
 - 抛射物名称  
 
 ## 未完成项目  
-- 物品名称(小部分)＆提示  
+- 物品提示  
 
 ## 其他备注  
 - 该版本无法实现游戏标题的替换。  
@@ -101,6 +102,9 @@ IMPCN是个非常神奇的模组......
 - 中文改良：星陨玫瑰，火，黎执，Rebuild，小藜  
 - 模组编写：jopojelly，星陨玫瑰，叶凌，DXTsT，Rebuild，流光  
 (除jopojelly外，均为抗药又坚硬汉化组成员)  
+
+## 特别鸣谢  
+- @onikwuthkro - 英文翻译
 
 ## 联系方式  
 - QQ：592853500  
