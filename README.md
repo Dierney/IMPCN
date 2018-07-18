@@ -35,13 +35,13 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 - Terraria.Localization.Content.zh-Hans.Projectiles  
 - Terraria.Localization.Content.zh-Hans.Town  
 
-## Others  
-- This version cannot replace the title.  
-- The source code for this mod is the fully open source and you can use the same code to try to replace other languages.  
-
 ## Known Issues  
 - If you re-select the language will restore vanilla Chinese.  
 - Only by disabling the mod and restart the game can you restore  vanilla Chinese.  
+
+## Others  
+- ~~This version cannot replace the title.~~  
+- The source code for this mod is the fully open source and you can use the same code to try to replace other languages. 
 
 ## Staffs  
 - Total Planner: 星陨玫瑰 (Dierney)  
