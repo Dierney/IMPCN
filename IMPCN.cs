@@ -1,3 +1,4 @@
+using Terraria;
 using Terraria.ModLoader;
 using Terraria.Localization;
 using System;
@@ -6,20 +7,26 @@ using System.IO;
 
 namespace IMPCN
 {
-	class IMPCN : Mod
-	{
-		public IMPCN()
+    
+    class IMPCN : Mod
+    {
+
+        private Random random;
+
+        public IMPCN()
 		{
 		}
 
 		public override void Load()
 		{
-			LoadAlternateChinese(LanguageManager.Instance);
-		}
+            random = new Random();
+            LoadAlternateChinese(LanguageManager.Instance);
+        }
 
-		// Unfortunately this only works on mod reload. It won't work just by changing languages in game. 
-		private void LoadAlternateChinese(LanguageManager languageManager)
+        // Unfortunately this only works on mod reload. It won't work just by changing languages in game. 
+        private void LoadAlternateChinese(LanguageManager languageManager)
 		{
+
 			// If Chinese is being loaded.
 			if (languageManager.ActiveCulture == GameCulture.Chinese)
 			{
@@ -42,7 +49,20 @@ namespace IMPCN
 						break;
 					}
 				}
-			}
+                // Replace game Chinese titles.
+                if (!Main.dedServ)
+                {
+                    string t = "未加载标题文件。";
+                    foreach (var file in File)
+                    {
+                        if (Path.GetFileName(file.Key) == "GameTitles.txt")
+                            t = System.Text.Encoding.UTF8.GetString(GetFileBytes(file.Key));
+                    }
+                    var texts = t.Split('\n');
+
+                    Main.instance.Window.Title = texts[random.Next(texts.Length)];
+                }
+            }
 		}
-	}
+    }
 }

@@ -65,6 +65,7 @@
     <None Include="ChineseReplacements\Terraria.Localization.Content.en-US.Items.json" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="GameTitles.txt" />
     <Content Include="icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
