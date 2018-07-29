@@ -52,7 +52,7 @@ namespace IMPCN
                 // Replace game Chinese titles.
                 if (!Main.dedServ)
                 {
-                    string t = "未加载标题文件。";
+                    string t = "未加载标题文件.";
                     foreach (var file in File)
                     {
                         if (Path.GetFileName(file.Key) == "GameTitles.txt")
