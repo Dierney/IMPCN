@@ -4,6 +4,7 @@ using Terraria.Localization;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using Microsoft.Xna.Framework;
 
 namespace IMPCN
 {
@@ -11,15 +12,16 @@ namespace IMPCN
     class IMPCN : Mod
     {
 
-        private Random random;
+        private static Random random = null;
+        private static string[] titles = null;
 
         public IMPCN()
-		{
-		}
+        {
+        }
 
 		public override void Load()
 		{
-            random = new Random();
+		    if (random == null) random = new Random();
             LoadAlternateChinese(LanguageManager.Instance);
         }
 
@@ -52,15 +54,12 @@ namespace IMPCN
                 // Replace game Chinese titles.
                 if (!Main.dedServ)
                 {
-                    string t = "未加载标题文件.";
-                    foreach (var file in File)
+                    if (titles == null)
                     {
-                        if (Path.GetFileName(file.Key) == "GameTitles.txt")
-                            t = System.Text.Encoding.UTF8.GetString(GetFileBytes(file.Key));
+                        titles = System.Text.Encoding.UTF8.GetString(GetFileBytes("GameTitles.txt")).Split('\n');
                     }
-                    var texts = t.Split('\n');
 
-                    Main.instance.Window.Title = texts[random.Next(texts.Length)];
+                    Main.instance.Window.Title = titles[random.Next(titles.Length)];
                 }
             }
 		}
