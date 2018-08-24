@@ -47,7 +47,7 @@ namespace IMPCN
 					}
 					catch (Exception)
 					{
-						ErrorLogger.Log("无法加载语言文件: " + translationFile);
+						ErrorLogger.Log("Failed to load language file: " + translationFile);
 						break;
 					}
 				}

@@ -8,7 +8,7 @@ namespace IMPCN
     {
         public override void OnEnterWorld(Player player)
         {
-            Main.NewText(Language.GetTextValue("欢迎使用改良中文，请尽情享用吧！"), 0, byte.MaxValue, 0, false);
+            Main.NewText(Language.GetTextValue("欢迎使用改良中文，请尽情享用吧！"), 67, 110, 238, false);
         }
     }
 }
