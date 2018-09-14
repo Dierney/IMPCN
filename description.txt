@@ -1,5 +1,5 @@
-[c/DDA0DD:IMPCN is a very magical mod...]
-It improves and polishes the official Chinese translation!
+[c/FF6EB4:IMPCN is a very magical mod...]
+[c/FFA500:It improves and polishes the Chinese translation!]
 [c/00FFFF:"The official Chinese Translation sucks!"]
 
 [i:29][c/FF0000:It only applies to Chinese players.][i:29]
@@ -14,17 +14,38 @@ As we all know, the official Chinese translation is so poor that it is suspected
 This version of IMPCN is unlike any versions before. Previously we used texts from 1.3.4.4, perhaps some modifications, but not new additions. Changing most of the official translations and adding new translations would perfect the translations. Besides, we will be reading and referring to a vast amount of documents, translating memes in the game(even adding new ones). You may also suggest translations where rectification is needed, once approved, we would apply your translation to the mod. And, as you can see, we made a mod for IMPCN. We would like to thank jopojelly as he has made basic frameworks for this mod, and making this mod possible. As this is a mod, you wouldn't have to download another client to use it. 0.10.1.4+ tML is the only requirement to use this mod. This is also a client-side mode, which means that the server doesn't necessarily have this mod installed; When tML updates, you do not need to wait for new Chinese tML to load this mod, it has great upward compatibility; Meanwhile, when IMPCN updates, we could also quickly apply updates to the mod. We even uploaded the mod onto Mod Browser, this way you may fetch the latest updates for IMPCN. This mod WILL NOT replace original files permanently.
 
 [i:75][c/FFD700:Completed Projects][i:75]
-[i:23]Main&Menu
-[i:23]Tooltips
-[i:23]MapLegend
-[i:23]ItemName&Tip
-[i:23]BuffName&Tip
-[i:23]NpcName&Chat
-[i:23]AchievementName&Tip
-[i:23]Projectiles
+[i:23][c/FF1493:Main&Menu]
+[i:23][c/FF1493:Tooltips]
+[i:23][c/FF1493:MapLegend]
+[i:23][c/FF1493:ItemName&Tip]
+[i:23][c/FF1493:BuffName&Tip]
+[i:23][c/FF1493:NpcName&Chat]
+[i:23][c/FF1493:AchievementName&Tip]
+[i:23][c/FF1493:Projectiles]
 
-[i:75][c/FFD700:Unfinished Projects][i:75]
+[i:75][c/FFD700:Uncompleted Projects][i:75]
 [i:23][c/A020F0:Waiting for final check and approve...]
+
+[i:2442][c/FFD700:Known Issues][i:2442]
+[i:1344][c/00EE00:If you re-select the language will restore] [c/00EE00:vanilla Chinese.]
+[i:1344][c/00EE00:Only by disabling the mod and restart the] [c/00EE00:game can you restore vanilla Chinese.]
+
+[i:361][c/FFD700:Others][i:361]
+[i:1913][c/FF7F24:The source code for this mod is the fully] [c/FF7F24:open source and you can use the same code to] [c/FF7F24:try to replace other languages.]
+
+[i:487][c/FFD700:Staffs][i:487]
+[i:3461][c/EE00EE:GM: 星陨玫瑰 (Dierney)]
+[i:3461][c/EE00EE:Improver: 星陨玫瑰, 火, 黎执, Rebuild,] [c/EE00EE:小藜]
+[i:3461][c/EE00EE:Coder: jopojelly, 星陨玫瑰, 叶凌, DXTsT,] [c/EE00EE:Rebuild, 流光]
+[c/FFDEAD:(Except for jopojelly, are all Members of the SBMW)]
+
+[i:1920][c/FFD700:Special Thanks][i:1920]
+[i:1869][c/FF6A6A:@onikwuthkro - English translation of Info]
+
+[i:393][c/FFD700:Contacts][i:393]
+[i:2374][c/00BFFF:QQ：592853500 (Dierney)]
+[i:2374][c/00BFFF:E-mail：dierney@foxmail.com]
+[i:2374][c/00BFFF:Discord：Dierney#0792]
 
 [i:3203][c/FFD700:Replace Files][i:3203]
 [i:3828]Terraria.Localization.Content.zh-Hans.Game
@@ -35,33 +56,13 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [i:3828]Terraria.Localization.Content.zh-Hans.Projectiles
 [i:3828]Terraria.Localization.Content.zh-Hans.Town
 
-[i:2442][c/FFD700:Known Issues][i:2442]
-[i:1344]Unable to replace game title yet. [DONE]
-[i:1344]If you re-select the language will restore vanilla Chinese.
-[i:1344]Only by disabling the mod and restart the game can you restore vanilla Chinese.
-
-[i:361][c/FFD700:Others][i:361]
-[i:1913]The source code for this mod is the fully open source and you can use the same code to try to replace other languages.
-
-[i:487][c/FFD700:Staffs][i:487]
-[i:3461]GM: 星陨玫瑰 (Dierney)
-[i:3461]Improver: 星陨玫瑰, 火, 黎执, Rebuild, 小藜
-[i:3461]Coder: jopojelly, 星陨玫瑰, 叶凌, DXTsT, Rebuild, 流光
-[c/FFDEAD:(Except for jopojelly, are all Members of the SBMW)]
-
-[i:1920][c/FFD700:Special Thanks][i:1920]
-[i:1869]@onikwuthkro - English translation of Info
-
-[i:393][c/FFD700:Contacts][i:393]
-[i:2374]QQ：592853500 (Dierney)
-[i:2374]E-mail：dierney@foxmail.com
-[i:2374]Discord：Dierney#0792
-
 [i:3120][c/FFD700:Changelog][i:3120]
 [c/A020F0:(Waiting for the English translation...)]
+
 ===========================================
-[c/DDA0DD:IMPCN是个非常神奇的模组......]
-它改良了原版中文，使其翻译更加完美！
+
+[c/FF6EB4:IMPCN是个非常神奇的模组......]
+[c/FFA500:它改良了原版中文，使其翻译更加完美！]
 [c/00FFFF:“官方中文真是太糟糕了！”]
 
 [i:29][c/FF0000:它仅适用于中国玩家][i:29]
@@ -76,39 +77,38 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 该版本的改良中文并不同于以往，以前大部分都是使用1.3.4.4版本的中文文本，或加以修改，并没有真正地创新。而该版本的改良中文只是结合以前的中文文本，对绝大部分官方中文进行修改，并会有新的翻译，将更加美观，其次，我们还翻阅＆参考大量资料，对游戏中大量的梗进行了完美翻译(甚至添加梗)。你还可以向我们提出认为需要修改的翻译，通过审议后将应用你的修改。此外，就如你现在所看到的，我们还将该版本的改良中文制作成了一个模组。当然，这要特别感谢jopojelly，他制作了整个模组的基本框架，使得该模组成为了现实！因为它是一个模组，所以就不需要再另外下载一个客户端，只需一个0.10.1.4+版本的tML即可，更加方便快捷；它还是个客户端类型的模组，也就是说在创建或加入服务器时，并不需要对方也拥有并启用该模组；当tML更新时，不再需要苦苦等待新版本的汉化tML发布，就可以直接加载使用，拥有极强的向上兼容性；同理，当改良中文更新时，我们也可以更快捷地将更新应用到模组上，我们还将该模组上传到了模组浏览器上，这样你还可以在模组浏览器中直接获取最新的更新。它原理是通过启用模组来使储存在模组中的改良中文的Json文件直接替换原版中文的Json文件，并不会永久覆盖。
 
 [i:75][c/FFD700:已完成项目][i:75]
-[i:23]主要＆界面
-[i:23]文字提示
-[i:23]地图图例
-[i:23]物品名称＆提示
-[i:23]BUFF名称＆提示
-[i:23]NPC名称＆对话
-[i:23]成就名称＆提示
-[i:23]抛射物名称
+[i:23][c/FF1493:主要＆界面]
+[i:23][c/FF1493:文字提示]
+[i:23][c/FF1493:地图图例]
+[i:23][c/FF1493:物品名称＆提示]
+[i:23][c/FF1493:BUFF名称＆提示]
+[i:23][c/FF1493:NPC名称＆对话]
+[i:23][c/FF1493:成就名称＆提示]
+[i:23][c/FF1493:抛射物名称]
 
 [i:75][c/FFD700:未完成项目][i:75]
 [i:23][c/A020F0:等待最终审阅...]
 
 [i:2442][c/FFD700:已知问题][i:2442]
-[i:1344]目前暂时无法实现游戏标题的替换 [已实现]
-[i:1344]如果重新选择语言会恢复原版中文
-[i:1344]需要禁用并重启游戏才能恢复官中
+[i:1344][c/00EE00:如果重新选择语言会恢复原版中文]
+[i:1344][c/00EE00:需要禁用并重启游戏才能恢复官中]
 
 [i:361][c/FFD700:其他备注][i:361]
-[i:1913]该模组的源代码都是完全开源的，你可以使用相同的代码来尝试实现其他语言的替换。
+[i:1913][c/FF7F24:该模组的源代码都是完全开源的，你可以使] [c/FF7F24:用相同的代码来尝试实现其他语言的替换。]
 
 [i:487][c/FFD700:制作成员][i:487]
-[i:3461]总策划：星陨玫瑰（Dierney）
-[i:3461]中文改良：星陨玫瑰，火，黎执，Rebuild，小藜
-[i:3461]模组编写：jopojelly，星陨玫瑰，叶凌，DXTsT，Rebuild，流光
+[i:3461][c/EE00EE:总策划：星陨玫瑰（Dierney）]
+[i:3461][c/EE00EE:中文改良：星陨玫瑰, 火, 黎执,] [c/EE00EE:Rebuild, 小藜]
+[i:3461][c/EE00EE:模组编写：jopojelly, 星陨玫瑰, 叶凌,] [c/EE00EE:DXTsT, Rebuild, 流光]
 [c/FFDEAD:(除jopojelly外，均为抗药又坚硬汉化组成员)]
 
 [i:1920][c/FFD700:特别鸣谢][i:1920]
-[i:1869]@onikwuthkro - 介绍的英文翻译
+[i:1869][c/FF6A6A:@onikwuthkro - 介绍的英文翻译]
 
 [i:393][c/FFD700:联系方式][i:393]
-[i:2374]QQ：592853500（Dierney）
-[i:2374]E-mail：dierney@foxmail.com
-[i:2374]Discord：Dierney#0792
+[i:2374][c/00BFFF:QQ：592853500（Dierney）]
+[i:2374][c/00BFFF:E-mail：dierney@foxmail.com]
+[i:2374][c/00BFFF:Discord：Dierney#0792]
 
 [i:3203][c/FFD700:替换文件][i:3203]
 [i:3828]Terraria.Localization.Content.zh-Hans.Game
@@ -121,7 +121,7 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 
 [i:3120][c/FFD700:更新日志][i:3120]
 [c/1E90FF:<模组>]
-=== v0.9 ===
+[c/FF3030:=== v0.9 ===]
 (2018.8.13)
 -更新<改良中文>
 -全面完善
@@ -131,35 +131,35 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 等待新图标...
 (下个版本正式完成)
 
-=== v0.7 ===
+[c/FF3030:=== v0.7 ===]
 (2018.7.29)
 -实现游戏标题替换
 -添加更多游戏标题
 -优化部分英文翻译
 -修正部分介绍 x5
 
-=== v0.6 ===
+[c/FF3030:=== v0.6 ===]
 (2018.7.16)
 -更新tML版本至v0.10.1.5
 -更新<改良中文>
 -添加[特别鸣谢]专栏
 
-=== v0.5 ===
+[c/FF3030:=== v0.5 ===]
 (2018.7.3)
 -添加英文介绍 - 非常感谢@onikwuthkro
 -再次修正部分介绍
 
-=== v0.4 ===
+[c/FF3030:=== v0.4 ===]
 (2018.6.24)
 -更新<改良中文>
 -修正部分介绍
 
-=== v0.3 ===
+[c/FF3030:=== v0.3 ===]
 (2018.6.18)
 -添加部分英文介绍(我们需要为此提供更好的文本!)
 -修改部分介绍
 
-=== v0.2 ===
+[c/FF3030:=== v0.2 ===]
 (2018.6.17)
 -提交Github访问令牌
 -在模组浏览器中显示图标
@@ -167,24 +167,24 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 -删除旧版本的更新日志
 -更换主页链接到Github
 
-=== v0.1 ===
+[c/FF3030:=== v0.1 ===]
 (2018.6.16)
 初始发布！
 -该版本仅用于测试
 
 [c/1E90FF:<改良中文>]
-=== v0.99 ===
+[c/FF3030:=== v0.99 ===]
 (2018.8.13)
 -已完成·工具提示
 -初步审批完成
 
-=== v0.94 ===
+[c/FF3030:=== v0.94 ===]
 (2018.7.16)
 -已完成·物品名称
 -初步审批所有文本
 (下个版本将基本完善)
 
-=== v0.93 ===
+[c/FF3030:=== v0.93 ===]
 (2018.6.24)
 -已完成·成就名称＆提示文本
 -已完成·NPC对话
@@ -197,6 +197,6 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 -同步部分生物旗帜名称
 -修正部分翻译＆拼写错误
 
-=== v0.92 ===
+[c/FF3030:=== v0.92 ===]
 (2018.6.16)
 -新增＆润色＆修正＆修改部分文本
