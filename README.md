@@ -1,6 +1,6 @@
 # IMPCN
 IMPCN is a magical mod...  
-It improves and polishes the official Chinese translation!  
+It improves and polishes the Chinese translation!  
 ~~"The official Chinese Translation sucks!"~~  
 
 **\*It only applies to Chinese players\***
@@ -18,13 +18,14 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 - Main&Menu  
 - Tooltips  
 - MapLegend  
-- NpcName&Chat  
+- ItemName&Tip  
 - BuffName&Tip  
+- NpcName&Chat  
 - AchievementName&Tip  
 - Projectiles  
 
-## Unfinished Projects  
-- ItemTips  
+## Uncompleted Projects  
+- Waiting for final check and approve...  
 
 ## Replace Files  
 - Terraria.Localization.Content.zh-Hans.Game  
@@ -36,7 +37,6 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 - Terraria.Localization.Content.zh-Hans.Town  
 
 ## Known Issues  
-- Unable to replace game title yet. [IMPLEMENTED]  
 - If you re-select the language will restore vanilla Chinese.  
 - Only by disabling the mod and restart the game can you restore  vanilla Chinese.  
 
@@ -44,13 +44,13 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 - The source code for this mod is the fully open source and you can use the same code to try to replace other languages. 
 
 ## Staffs  
-- Total Planner: 星陨玫瑰 (Dierney)  
-- Improve Chinese: 星陨玫瑰, 火, 黎执, Rebuild, 小藜  
-- Mod Coding: jopojelly, 星陨玫瑰, 叶凌, DXTsT, Rebuild, 流光  
+- GM: 星陨玫瑰 (Dierney)  
+- Improver: 星陨玫瑰, 火, 黎执, Rebuild, 小藜  
+- Coder: jopojelly, 星陨玫瑰, 叶凌, DXTsT, Rebuild, 流光  
 (Except for jopojelly, are all Members of the SBMW)  
 
 ## Special Thanks  
-- @onikwuthkro - English translation
+- @onikwuthkro - English translation of Info  
 
 ## Contacts  
 - QQ：592853500 (Dierney)  
@@ -78,19 +78,19 @@ IMPCN是个非常神奇的模组......
 该版本的改良中文并不同于以往，以前大部分都是使用1.3.4.4版本的中文文本，或加以修改，并没有真正地创新。而该版本的改良中文只是结合以前的中文文本，对绝大部分官方中文进行修改，并会有新的翻译，将更加美观，其次，我们还翻阅＆参考大量资料，对游戏中大量的梗进行了完美翻译(甚至添加梗)。你还可以向我们提出认为需要修改的翻译，通过审议后将应用你的修改。此外，就如你现在所看到的，我们还将该版本的改良中文制作成了一个模组。当然，这要特别感谢jopojelly，他制作了整个模组的基本框架，使得该模组成为了现实！因为它是一个模组，所以就不需要再另外下载一个客户端，只需一个0.10.1.4+版本的tML即可，更加方便快捷；它还是个客户端类型的模组，也就是说在创建或加入服务器时，并不需要对方也拥有并启用该模组；当tML更新时，不再需要苦苦等待新版本的汉化tML发布，就可以直接加载使用，拥有极强的向上兼容性；同理，当改良中文更新时，我们也可以更快捷地将更新应用到模组上，我们还将该模组上传到了模组浏览器上，这样你还可以在模组浏览器中直接获取最新的更新。它原理是通过启用模组来使储存在模组中的改良中文的Json文件直接替换原版中文的Json文件，并不会永久覆盖。
 
 ## 已完成项目  
-- 全界面  
+- 主要＆界面  
 - 文字提示  
 - 地图图例  
-- NPC名称＆对话  
+- 物品名称＆提示  
 - BUFF名称＆提示  
+- NPC名称＆对话  
 - 成就名称＆提示  
 - 抛射物名称  
 
 ## 未完成项目  
-- 物品提示  
+- 等待最终审阅...  
 
 ## 已知问题  
-- 目前暂时无法实现游戏标题的替换 [已实现]  
 - 如果重新选择语言会恢复替换文件  
 - 需要禁用后重启游戏才能恢复官中  
 
@@ -104,7 +104,7 @@ IMPCN是个非常神奇的模组......
 （除jopojelly外，均为抗药又坚硬汉化组成员）  
 
 ## 特别鸣谢  
-- @onikwuthkro - 英文翻译
+- @onikwuthkro - 介绍的英文翻译  
 
 ## 联系方式  
 - QQ：592853500（Dierney）  
@@ -119,4 +119,3 @@ IMPCN是个非常神奇的模组......
 - Terraria.Localization.Content.zh-Hans.NPCs  
 - Terraria.Localization.Content.zh-Hans.Projectiles  
 - Terraria.Localization.Content.zh-Hans.Town  
-
