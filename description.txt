@@ -37,7 +37,7 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [i:3461][c/EE00EE:GM: 星陨玫瑰 (Dierney)]
 [i:3461][c/EE00EE:Improver: 星陨玫瑰, 火, 黎执, Rebuild,] [c/EE00EE:小藜]
 [i:3461][c/EE00EE:Coder: jopojelly, 星陨玫瑰, 叶凌, DXTsT,] [c/EE00EE:Rebuild, 流光]
-[c/FFDEAD:(Except for jopojelly, are all Members of the SBMW)]
+[c/EEC591:(Except for jopojelly, are all Members of the SBMW)]
 
 [i:1920][c/FFD700:Special Thanks][i:1920]
 [i:1869][c/FF6A6A:@onikwuthkro - English translation of Info]
@@ -100,7 +100,7 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [i:3461][c/EE00EE:总策划：星陨玫瑰（Dierney）]
 [i:3461][c/EE00EE:中文改良：星陨玫瑰, 火, 黎执,] [c/EE00EE:Rebuild, 小藜]
 [i:3461][c/EE00EE:模组编写：jopojelly, 星陨玫瑰, 叶凌,] [c/EE00EE:DXTsT, Rebuild, 流光]
-[c/FFDEAD:(除jopojelly外，均为抗药又坚硬汉化组成员)]
+[c/EEC591:(除jopojelly外，均为抗药又坚硬汉化组成员)]
 
 [i:1920][c/FFD700:特别鸣谢][i:1920]
 [i:1869][c/FF6A6A:@onikwuthkro - 介绍的英文翻译]
