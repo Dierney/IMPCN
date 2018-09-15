@@ -27,15 +27,6 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 ## Uncompleted Projects  
 - Waiting for final check and approve...  
 
-## Replace Files  
-- Terraria.Localization.Content.zh-Hans.Game  
-- Terraria.Localization.Content.zh-Hans.Items  
-- Terraria.Localization.Content.zh-Hans.Legacy  
-- Terraria.Localization.Content.zh-Hans.Main  
-- Terraria.Localization.Content.zh-Hans.NPCs  
-- Terraria.Localization.Content.zh-Hans.Projectiles  
-- Terraria.Localization.Content.zh-Hans.Town  
-
 ## Known Issues  
 - If you re-select the language will restore vanilla Chinese.  
 - Only by disabling the mod and restart the game can you restore  vanilla Chinese.  
@@ -57,9 +48,15 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 - E-mail：dierney@foxmail.com  
 - Discord：Dierney#0792  
 
-## Changelog  
-(Waiting for the English translation...)  
-   
+## Replace Files  
+- Terraria.Localization.Content.zh-Hans.Game  
+- Terraria.Localization.Content.zh-Hans.Items  
+- Terraria.Localization.Content.zh-Hans.Legacy  
+- Terraria.Localization.Content.zh-Hans.Main  
+- Terraria.Localization.Content.zh-Hans.NPCs  
+- Terraria.Localization.Content.zh-Hans.Projectiles  
+- Terraria.Localization.Content.zh-Hans.Town  
+
 # \=======================================
 
 IMPCN是个非常神奇的模组......  
