@@ -14,7 +14,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -58,15 +58,16 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="Terraria">
-      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe</HintPath>
+      <HintPath>D:\Steam\steamapps\common\Terraria\Terraria.exe</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ChineseReplacements\Terraria.Localization.Content.en-US.Items.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GameTitles.txt" />
     <Content Include="icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ChineseReplacementsForThoriumMod\" />
+    <Folder Include="ChineseReplacements\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

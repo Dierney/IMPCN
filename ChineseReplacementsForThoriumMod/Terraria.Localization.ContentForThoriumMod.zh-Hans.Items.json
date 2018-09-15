@@ -5503,8 +5503,8 @@
 		"RestoresMana": "恢复{0}法力值",
 		"SecondDuration": "{0}秒持续时间",
 		"String": "扩大悠悠球的攻击范围",
-		"UsesLife": "消耗{0}生命",
-		"UsesMana": "消耗{0}法力"
+		"UsesLife": "消耗 {0} 生命",
+		"UsesMana": "消耗 {0} 法力"
 	},
 	"BuffDescription": {
 		"WellFed_Expert": "小幅度提升所有属性,提高生命再生速度"
