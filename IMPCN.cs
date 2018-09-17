@@ -21,12 +21,6 @@ namespace IMPCN
 
 		public override void Load()
         {
-            // This mod is usually only built in the latest tModLoader.
-            if (ModLoader.version < new Version(0, 10, 1, 5))
-            {
-                throw new Exception("\nThis mod is usually only built in the latest tModLoader. Please update tModLoader to use this mod"
-                    + "\n该模组通常仅生成于最新版tModLoader.请更新tModLoader以使用该模组\n\n");
-            }
             if (random == null) random = new Random();
             //LoadAlternateChinese(LanguageManager.Instance);
             
@@ -34,12 +28,13 @@ namespace IMPCN
             if (ModLoader.GetMod("ThoriumMod") != null)
             {
                 LoadAlternateChinese(LanguageManager.Instance, "Terraria.Localization.ContentForThoriumMod.");
+                // After selecting Chinese, the latest version of Thorium Mod will have an InvalidOperationException when querying the recipe for some items(e.g. Unholy shards).
             }
+
             else
             {
                 LoadAlternateChinese(LanguageManager.Instance, "Terraria.Localization.Content.");
             }
-            // After selecting Chinese, the latest version of Thorium Mod will have an InvalidOperationException when querying the recipe for some items(e.g. Unholy shards).
         }
 
         // Unfortunately this only works on mod reload. It won't work just by changing languages in game. 
