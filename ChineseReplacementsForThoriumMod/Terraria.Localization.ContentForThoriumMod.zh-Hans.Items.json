@@ -5503,7 +5503,7 @@
 		"RestoresMana": "恢复{0}法力值",
 		"SecondDuration": "{0}秒持续时间",
 		"String": "扩大悠悠球的攻击范围",
-		"UsesLife": "消耗 {0} 生命",
+		"UsesLife": "消耗 {0} 生命",// 添加"空格"以用于修复ThoriumMod的异常崩溃
 		"UsesMana": "消耗 {0} 法力"
 	},
 	"BuffDescription": {
