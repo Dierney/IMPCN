@@ -1,4 +1,4 @@
-﻿# These files are used to temporarily fix a bug in ThoriumMod.
+﻿# These files are used to temporarily fix a bug for ThoriumMod.
 
 --- ErrorReport:
 
@@ -13,7 +13,7 @@ After selecting Chinese, the latest version of Thorium Mod will have an InvalidO
 
 --- ErrorCause:
 
-Use "space" to split the string to get the value. But no space in Chinese...
+Use "spaces" to split the string to get the value. But no space in Chinese...
 
 --- ReproductionFrequency
 

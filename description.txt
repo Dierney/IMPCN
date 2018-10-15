@@ -1,11 +1,11 @@
-[c/FF6EB4:IMPCN is a very magical mod...]
-[c/FFA500:It improves and polishes the Chinese translation!]
-[c/00FFFF:"The official Chinese Translation sucks!"]
+[c/EE00EE:IMPCN is a very magical mod...]
+[c/FF7F24:It improves and polishes the Chinese translation!]
+[c/00BFFF:"The official Chinese Translation sucks!"]
 
 [i:29][c/FF0000:It only applies to Chinese players.][i:29]
 
 [i:191][c/00FF00:What is IMPCN?]
-As the name suggests, IMPCN is the better version of official Chinese Translation. It improves almost every aspect of the official translation. To revamp the official Chinese translation, we would review all original texts and rectify all incorrect, misleading and mistaken translations, including those that do not match pronounciation. Hoping that it would be close to old or better translations. Ultimately close to the Faithfulness, Expressiveness and Gracefulness standard. This project is certain to be taking huge amount of dedication, estimated content to be translated and/or corrected includes: Interface, Tooltips, Map Legends, Items, Projectiles, NPC, BUFF, Achievements, Conversations, Tips, etc.
+As the name suggests, IMPCN is the better version of official Chinese Translation. It improves almost every aspect of the official translation. To revamp the official Chinese translation, we would review all original texts and rectify all incorrect, misleading and mistaken translations, including those that do not match pronounciation. Hoping that it would be close to old or better translations. Ultimately close to the Faithfulness, Expressiveness and Gracefulness standard. This project is certain to be taking huge amount of dedication, estimated content to be translated and/or corrected includes: Interface, Tooltips, Map Legends, Items, Projectiles, NPC, BUFF, Achievements, Dialog, Tips, etc.
 
 [i:191][c/00FF00:Why start this project?]
 As we all know, the official Chinese translation is so poor that it is suspected to be the work of machine translation. As well as being used to old translations. Many of the Chinese player base has aired their dissatisfaction. Re-Logic admitted the unacceptable quality of Chinese Translation and created a thread on the official forum to collect improper translations, thus making rectifications. It was, however, disappointing that it came with little success. Actually, long before official Chinese translation is added into the game, our team has been working on Chinese translation for version 1.3.3, and kept updating the unofficial translation untill 1.3.5 was released. Not long ago, some members from our team has contributed to make an improved translation for version 1.3.5.1. It hasn't been updated to versions after 1.3.5.1 however. As such, to answer our player base's pleas, we are determined to start IMPCN, with improvements.
@@ -40,7 +40,8 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [c/EEC591:(Except for jopojelly, are all Members of the SBMW)]
 
 [i:1920][c/FFD700:Special Thanks][i:1920]
-[i:1869][c/FF6A6A:@onikwuthkro - English translation of Info]
+[i:1869][c/FF6A6A:@onikwuthkro - English translation of Info!]
+[i:1869][c/FF6A6A:@The general Chinese Players - Your] [c/FF6A6A:support and contribution!]
 
 [i:393][c/FFD700:Contacts][i:393]
 [i:2374][c/00BFFF:QQ：592853500 (Dierney)]
@@ -57,11 +58,102 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [i:3828]Terraria.Localization.Content.zh-Hans.Town
 
 [i:3120][c/FFD700:Changelog][i:3120]
-[c/A020F0:(Waiting for the English translation...)]
+
+[c/1E90FF:<Mod>]
+[c/FF3030:=== v0.9.2 ===]
+(2018.9.5)
+-Updated <IMPCN>
+-Better(?) color scheme
+-The current version fixes an exception crashes of Thorium Mod
+(You don't need to install [IMPCN_v0.9.1FIX])
+
+[c/FF3030:=== v0.9 ===]
+(2018.8.13)
+-Updated <IMPCN>
+-Comprehensive perfect
+-Code optimization
+-Updated the info
+Waiting for final review...
+Waiting for new icon...
+(The next version maybe officially completed)
+
+[c/FF3030:=== v0.7 ===]
+(2018.7.29)
+-Implement the replacement of GameTitles
+-Added more game titles
+-Better English translation
+-Amend the partial info x5
+
+[c/FF3030:=== v0.6 ===]
+(2018.7.16)
+-Updated to tModLoader 0.10.1.5
+-Updated <IMPCN>
+-Added [Special Thanks] column
+
+[c/FF3030:=== v0.5 ===]
+(2018.7.3)
+-Added complete English info - thinks to @onikwuthkro
+-Amended the partial info
+
+[c/FF3030:=== v0.4 ===]
+(2018.6.24)
+-Updated <IMPCN>
+-Amended the partial info
+
+[c/FF3030:=== v0.3 ===]
+(2018.6.18)
+-Added some English info(We need better text for this!)
+-Amended the partial info
+
+[c/FF3030:=== v0.2 ===]
+(2018.6.17)
+-Submit the Github access token
+-Display mod icon on the mod-browser
+-Amended the partial info
+-Deleted some changelogs for the old version
+-Changed homepage link to Github
+
+[c/FF3030:=== v0.1 ===]
+(2018.6.16)
+Initial launch!
+-This version is for testing purposes only
+
+[c/1E90FF:<IMPCN>]
+[c/FF3030:=== v0.991 ===]
+(2018.9.15)
+-Amended some texts
+
+[c/FF3030:=== v0.99 ===]
+(2018.8.13)
+-DONE·ItemTip
+-Check completed
+
+[c/FF3030:=== v0.94 ===]
+(2018.7.16)
+-DONE·ItemName
+-Check all the texts preliminarily
+(The next version will be basically perfect)
+
+[c/FF3030:=== v0.93 ===]
+(2018.6.24)
+-DONE·AchievementName&Tip
+-DONE·NpcDialog
+-DONE·OtherText
+-Check some ItemName texts (Almost Done)
+-Check some NpcName texts
+-Check some NpcDialog texts
+-Check some Achievement texts
+(Added a meme from [Detroit: Become Human])
+-Synchronize the names of some NpcBanners
+-Correct known translation & spelling mistakes
+
+[c/FF3030:=== v0.92 ===]
+(2018.6.16)
+-Added & polish & amend & modify Partial texts
 ===========================================
-[c/FF6EB4:IMPCN是个非常神奇的模组......]
-[c/FFA500:它改良了原版中文，使其翻译更加完美！]
-[c/00FFFF:“官方中文真是太糟糕了！”]
+[c/EE00EE:IMPCN是个非常神奇的模组......]
+[c/FF7F24:它改良了原版中文，使其翻译更加完美！]
+[c/00BFFF:“官方中文真是太糟糕了！”]
 
 [i:29][c/FF0000:它仅适用于中国玩家][i:29]
 
@@ -101,7 +193,8 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [c/EEC591:(除jopojelly外，均为抗药又坚硬汉化组成员)]
 
 [i:1920][c/FFD700:特别鸣谢][i:1920]
-[i:1869][c/FF6A6A:@onikwuthkro - 介绍的英文翻译]
+[i:1869][c/FF6A6A:@onikwuthkro - 介绍的英文翻译！]
+[i:1869][c/FF6A6A:@广大中国玩家 - 你们的支持与贡献！]
 
 [i:393][c/FFD700:联系方式][i:393]
 [i:2374][c/00BFFF:QQ：592853500（Dierney）]
@@ -118,6 +211,7 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [i:3828]Terraria.Localization.Content.zh-Hans.Town
 
 [i:3120][c/FFD700:更新日志][i:3120]
+
 [c/1E90FF:<模组>]
 [c/FF3030:=== v0.9.2 ===]
 (2018.9.5)
@@ -195,10 +289,10 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 
 [c/FF3030:=== v0.93 ===]
 (2018.6.24)
--已完成·成就名称＆提示文本
+-已完成·成就名称＆提示
 -已完成·NPC对话
 -已完成·其他小文本
--额外润色部分物品名称(即将完成)
+-额外审批部分物品名称(即将完成)
 -额外审批部分生物名称
 -额外审批部分NPC对话
 -额外审批部分成就内容
