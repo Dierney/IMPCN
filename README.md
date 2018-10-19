@@ -29,7 +29,7 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 - Only by disabling the mod and restart the game can you restore vanilla Chinese.  
 
 ## Others  
-- The source code for this mod is the fully open source and you can use the same code to try to replace other languages.  
+- The source code for this mod is open source(MIT License) and you can use the same code to try to replace other languages.  
 - Don't embezzle the IMPCN texts in any form.  
 
 ## Staffs  
@@ -88,7 +88,7 @@ IMPCN是个非常神奇的模组......
 - 需要禁用后重启游戏才能恢复官中。  
 
 ## 其他备注  
-- 该模组的源代码(不包括改良文本)都是完全开源的，你可以使用相同的代码来尝试实现其他语言的替换。  
+- 该模组的源代码是开源的(MIT许可证)，你可以尝试使用相同的代码来实现其他语言的替换。  
 - 禁止以任何形式盗用改良中文的文本。  
 
 ## 制作成员  

@@ -28,7 +28,7 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [i:1344][c/00EE00:Only by disabling the mod and restart the] [c/00EE00:game can you restore vanilla Chinese.]
 
 [i:361][c/FFD700:Others][i:361]
-[i:1913][c/FF7F24:The source code for this mod is the fully] [c/FF7F24:open source and you can use the same code to] [c/FF7F24:try to replace other languages.]
+[i:1913][c/FF7F24:The source code for this mod is open] [c/FF7F24:source(MIT License) and you can use the same code] [c/FF7F24:to try to replace other languages.]
 [i:1913][c/FF7F24:Don't embezzle the IMPCN texts in any form.]
 
 [i:487][c/FFD700:Staffs][i:487]
@@ -205,7 +205,7 @@ Preview version, early access!
 [i:1344][c/00EE00:需要禁用并重启游戏才能恢复官中。]
 
 [i:361][c/FFD700:其他备注][i:361]
-[i:1913][c/FF7F24:该模组的源代码都是完全开源的，你可以使] [c/FF7F24:用相同的代码来尝试实现其他语言的替换。]
+[i:1913][c/FF7F24:该模组的源代码是开源的(MIT许可证)，你可] [c/FF7F24:以尝试使用相同的代码来实现其他语言的替换。]
 [i:1913][c/FF7F24:禁止以任何形式盗用改良中文的文本。]
 
 [i:487][c/FFD700:制作成员][i:487]
