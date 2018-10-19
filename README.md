@@ -1,5 +1,5 @@
 # IMPCN
-IMPCN is a magical mod...  
+IMPCN is a fantastic mod...  
 It improves and polishes the Chinese translation!  
 ~~"The official Chinese Translation sucks!"~~  
 
