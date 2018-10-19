@@ -63,7 +63,7 @@ namespace IMPCN
 						break;
 					}
 				}
-                // Replace game Chinese titles.
+                // Replace Chinese game titles.
                 if (!Main.dedServ)
                 {
                     if (titles == null)

@@ -1,4 +1,4 @@
-﻿# These files are used to temporarily fix a bug for ThoriumMod.
+# These files are used to temporarily fix a bug for ThoriumMod.
 
 --- ErrorReport:
 
@@ -7,13 +7,13 @@ InvalidOperationException: Begin cannot be called again until End has been succe
    at Terraria.Main.do_Draw(GameTime gameTime)
    at Terraria.Main.DoDraw(GameTime gameTime)
 
---- OccurrenceCause:
+--- OccurrenceProcess:
 
 After selecting Chinese, the latest version of Thorium Mod will have an InvalidOperationException when querying the recipe for some items(e.g. Unholy shards).
 
 --- ErrorCause:
 
-Use "spaces" to split the string to get the value. But no space in Chinese...
+Use "spaces" to split the string to get the value. But no "spaces" in Chinese...
 
 --- ReproductionFrequency
 
@@ -31,6 +31,6 @@ Changed:
 "UsesLife": "消耗 {0} 生命"
 "UsesMana": "消耗 {0} 法力"
 
---- others
+--- Others
 
 Thanks to @Rebuild for discovering the cause of the error and providing a solution.
