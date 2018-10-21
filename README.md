@@ -24,6 +24,10 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 - AchievementName&Tip  
 - Projectiles  
 
+## Unmodified Projects  
+- ItemPrefix  
+- DeathText  
+
 ## Known Issues  
 - If you re-select the language will restore vanilla Chinese.  
 - Only by disabling the mod and restart the game can you restore vanilla Chinese.  
@@ -83,6 +87,10 @@ IMPCN是个非常神奇的模组......
 - 成就名称＆提示  
 - 抛射物名称  
 
+## 未更改项目  
+- 物品前缀  
+- 死亡信息  
+
 ## 已知问题  
 - 如果重新选择语言会恢复替换文件。  
 - 需要禁用后重启游戏才能恢复官中。  
@@ -93,7 +101,7 @@ IMPCN是个非常神奇的模组......
 
 ## 制作成员  
 - 总策划：星陨玫瑰（Dierney）  
-- 中文改良：星陨玫瑰, 黎执, 小藜, 小藜, 火, Rebuild  
+- 中文改良：星陨玫瑰, 黎执, 小藜, 火, Rebuild  
 - 模组编写：jopojelly, Rebuild, 叶凌, 星陨玫瑰, 流光  
 （除jopojelly外，均为抗药又坚硬汉化组成员）  
 

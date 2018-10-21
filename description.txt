@@ -23,6 +23,10 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [i:23][c/FF1493:AchievementName&Tip]
 [i:23][c/FF1493:Projectiles]
 
+[i:75][c/FFD700:Unmodified Projects][i:75]
+[i:23][c/FF1493:ItemPrefix]
+[i:23][c/FF1493:DeathText]
+
 [i:2442][c/FFD700:Known Issues][i:2442]
 [i:1344][c/00EE00:If you re-select the language will restore] [c/00EE00:vanilla Chinese.]
 [i:1344][c/00EE00:Only by disabling the mod and restart the] [c/00EE00:game can you restore vanilla Chinese.]
@@ -200,6 +204,10 @@ Preview version, early access!
 [i:23][c/FF1493:成就名称＆提示]
 [i:23][c/FF1493:抛射物名称]
 
+[i:75][c/FFD700:未更改项目][i:75]
+[i:23][c/FF1493:物品前缀]
+[i:23][c/FF1493:死亡信息]
+
 [i:2442][c/FFD700:已知问题][i:2442]
 [i:1344][c/00EE00:如果重新选择语言会恢复原版中文。]
 [i:1344][c/00EE00:需要禁用并重启游戏才能恢复官中。]
@@ -209,7 +217,7 @@ Preview version, early access!
 [i:1913][c/FF7F24:禁止以任何形式盗用改良中文的文本。]
 
 [i:487][c/FFD700:制作成员][i:487]
-[i:3461][c/EE00EE:创建者：星陨玫瑰（Dierney）]
+[i:3461][c/EE00EE:总策划：星陨玫瑰（Dierney）]
 [i:3461][c/EE00EE:中文改良：星陨玫瑰, 黎执, 小藜,] [c/EE00EE:火, Rebuild]
 [i:3461][c/EE00EE:模组编写：jopojelly, Rebuild, 叶凌,] [c/EE00EE:DXTsT, 星陨玫瑰, 流光]
 [c/EEC591:(除jopojelly外，均为抗药又坚硬汉化组成员)]
