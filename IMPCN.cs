@@ -15,6 +15,10 @@ namespace IMPCN
         private static Random random = null;
         private static string[] titles = null;
 
+        // Allows the use of Mod Helpers to receive in-game issue reports from players
+        public static string GithubUserName { get { return "Dierney"; } }
+        public static string GithubProjectName { get { return "IMPCN"; } }
+ 
         public IMPCN()
         {
         }

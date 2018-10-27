@@ -70,6 +70,7 @@ Officially Completed & Released!
 -Perfected the info
 -Added English Changelogs
 -Added a remark about fixing ThoriumMod Bug(RemarkOfThoriumMod.txt)
+-Allows the use of Mod Helpers to receive in-game issue reports from players
 -Deleted stupid RequiredVersion
 
 [c/FF3030:=== v0.9.2 ===]
@@ -251,6 +252,7 @@ Preview version, early access!
 -正式完善介绍
 -添加英文的更新日志
 -添加关于修复ThoriumMod Bug的备注(RemarkOfThoriumMod.txt)
+-允许使用ModHelpers Mod在游戏中接收玩家的问题报告
 -删除愚蠢的版本限制
 
 [c/FF3030:=== v0.9.2 ===]
