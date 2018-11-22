@@ -6,16 +6,21 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
+// TODO: Pressed a hotKey to toggle translation texts(Vanilla, IMPCN & ThoriumMod).
+
 namespace IMPCN
 {
     
     class IMPCN : Mod
     {
 
+        public static ModHotKey ToggleTranslationTextsHotKey;
+
         private static Random random = null;
         private static string[] titles = null;
 
-        // Allows the use of Mod Helpers to receive in-game issue reports from players
+        // Allows the use of Mod Helpers to receive in-game issue reports from players.
+        // https://forums.terraria.org/index.php?threads/mod-helpers.63670/#modders
         public static string GithubUserName { get { return "Dierney"; } }
         public static string GithubProjectName { get { return "IMPCN"; } }
  
@@ -25,6 +30,8 @@ namespace IMPCN
 
 		public override void Load()
         {
+            ToggleTranslationTextsHotKey = RegisterHotKey("Toggle Translation Texts", "L");
+
             if (random == null) random = new Random();
             //LoadAlternateChinese(LanguageManager.Instance);
             
@@ -32,13 +39,18 @@ namespace IMPCN
             if (ModLoader.GetMod("ThoriumMod") != null)
             {
                 LoadAlternateChinese(LanguageManager.Instance, "Terraria.Localization.ContentForThoriumMod.");
-                // After selecting Chinese, the latest version of Thorium Mod will have an InvalidOperationException when querying the recipe for some items(e.g. Unholy shards).
+                // see RemarkOfThoriumMod.txt for details.
             }
 
             else
             {
                 LoadAlternateChinese(LanguageManager.Instance, "Terraria.Localization.Content.");
             }
+        }
+
+        public override void Unload()
+        {
+            ToggleTranslationTextsHotKey = null;
         }
 
         // Unfortunately this only works on mod reload. It won't work just by changing languages in game. 
