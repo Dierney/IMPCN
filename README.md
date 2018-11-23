@@ -34,10 +34,10 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 
 ## Others  
 - The source code for this mod is open source(MIT License) and you can use the same code to try to replace other languages.  
-- Don't embezzle the IMPCN texts in any form.  
+- Please don't use any form to steal IMPCN texts, sotherwise it will be regarded as infringement.  
 
 ## Staffs  
-- GM: 星陨玫瑰 (Dierney)  
+- Founder: 星陨玫瑰 (Dierney)  
 - Improver: 星陨玫瑰, 黎执, 小藜, 火, Rebuild,  
 - Coder: jopojelly, Rebuild, 叶凌, DXTsT, 星陨玫瑰, 流光  
 (Except for jopojelly, are all Members of the SBMW)  
@@ -97,7 +97,7 @@ IMPCN是个非常神奇的模组......
 
 ## 其他备注  
 - 该模组的源代码是开源的(MIT许可证)，你可以尝试使用相同的代码来实现其他语言的替换。  
-- 禁止以任何形式盗用改良中文的文本。  
+- 请勿以任何形式盗用改良中文的文本，否则将视为侵权。  
 
 ## 制作成员  
 - 总策划：星陨玫瑰（Dierney）  

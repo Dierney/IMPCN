@@ -21,7 +21,7 @@ Always
 
 --- TemporarySolution:
 
-Add "spaces" to UsesLife and UsesMana in Terraria.Localization.Content.zh-Hans.Items.
+Add "spaces" to "UsesLife" and "UsesMana" in Terraria.Localization.Content.zh-Hans.Items.json
 
 Original:
 "UsesLife": "消耗{0}生命"
