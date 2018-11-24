@@ -28,6 +28,10 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 - ItemPrefix  
 - DeathText  
 
+## Future Plans  
+- Allows toggle translation texts(Vanilla, IMPCN] [c/1E90FF:& ThoriumMod).  
+- A exquisite icon!  
+
 ## Known Issues  
 - If you re-select the language will restore vanilla Chinese.  
 - Only by disabling the mod and restart the game can you restore vanilla Chinese.  
@@ -90,6 +94,10 @@ IMPCN是个非常神奇的模组......
 ## 未更改项目  
 - 物品前缀  
 - 死亡信息  
+
+## 未来计划  
+- 允许切换翻译文本(原版,改良中文＆瑟银)。  
+- 一个精美的图标！  
 
 ## 已知问题  
 - 如果重新选择语言会恢复替换文件。  

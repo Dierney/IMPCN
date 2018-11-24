@@ -4,13 +4,12 @@ using Terraria.Localization;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 
 // TODO: Pressed a hotKey to toggle translation texts(Vanilla, IMPCN & ThoriumMod).
 
 namespace IMPCN
 {
-    
+
     class IMPCN : Mod
     {
 
@@ -79,6 +78,7 @@ namespace IMPCN
 						break;
 					}
 				}
+
                 // Replace Chinese game titles.
                 if (!Main.dedServ)
                 {

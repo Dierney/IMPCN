@@ -1,6 +1,6 @@
 [c/EE00EE:IMPCN is a very fantastic mod...]
 [c/FF7F24:It improves and polishes the Chinese translation!]
-[c/00BFFF:"The official Chinese Translation sucks!"]
+[c/1E90FF:"The official Chinese Translation sucks!"]
 
 [i:29][c/FF0000:It only applies to Chinese players.][i:29]
 
@@ -27,6 +27,10 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [i:23][c/FF1493:ItemPrefix]
 [i:23][c/FF1493:DeathText]
 
+[i:903][c/FFD700:Future Plans][i:903]
+[i:1874][c/1E90FF:Allows toggle translation texts(Vanilla, IMPCN] [c/1E90FF:& ThoriumMod).]
+[i:1874][c/1E90FF:A exquisite icon!]
+
 [i:2442][c/FFD700:Known Issues][i:2442]
 [i:1344][c/00EE00:If you re-select the language will restore] [c/00EE00:vanilla Chinese.]
 [i:1344][c/00EE00:Only by disabling the mod and restart the] [c/00EE00:game can you restore vanilla Chinese.]
@@ -46,9 +50,9 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [i:1869][c/FF6A6A:@The general Chinese Players - Your] [c/FF6A6A:support and contribution!]
 
 [i:393][c/FFD700:Contacts][i:393]
-[i:2374][c/00BFFF:QQ：592853500 (Dierney)]
-[i:2374][c/00BFFF:E-mail：dierney@foxmail.com]
-[i:2374][c/00BFFF:Discord：Dierney#0792]
+[i:2374][c/1E90FF:QQ：592853500 (Dierney)]
+[i:2374][c/1E90FF:E-mail：dierney@foxmail.com]
+[i:2374][c/1E90FF:Discord：Dierney#0792]
 
 [i:3203][c/FFD700:Replacement Files][i:3203]
 [i:3828]Terraria.Localization.Content.zh-Hans.Game
@@ -63,12 +67,14 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 
 [c/1E90FF:<Mod>]
 [c/FF3030:=== v1.0 ===]
-(2018.xx.xx)
+(2018.11.24)
 Officially Completed & Released!
 -Updated <IMPCN>
 -Created LICENSE(MIT License)
 -Perfected the info
 -Added English Changelogs
+-Added more game titles
+-Added [Future Plans] column
 -Added a remark about fixing ThoriumMod Bug(RemarkOfThoriumMod.txt)
 -You can now use Mod Helpers to report issue in-game
 -Deleted stupid RequiredVersion
@@ -182,7 +188,7 @@ Preview version, early access!
 ===========================================
 [c/EE00EE:IMPCN是个非常神奇的模组......]
 [c/FF7F24:它改良了原版中文，使其翻译更加完美！]
-[c/00BFFF:“官方中文真是太糟糕了！”]
+[c/1E90FF:“官方中文真是太糟糕了！”]
 
 [i:29][c/FF0000:它仅适用于中国玩家][i:29]
 
@@ -209,6 +215,10 @@ Preview version, early access!
 [i:23][c/FF1493:物品前缀]
 [i:23][c/FF1493:死亡信息]
 
+[i:903][c/FFD700:未来计划][i:903]
+[i:1874][c/1E90FF:允许切换翻译文本(原版,改良中文＆瑟银)。]
+[i:1874][c/1E90FF:一个精美的图标！]
+
 [i:2442][c/FFD700:已知问题][i:2442]
 [i:1344][c/00EE00:如果重新选择语言会恢复原版中文。]
 [i:1344][c/00EE00:需要禁用并重启游戏才能恢复官中。]
@@ -228,9 +238,9 @@ Preview version, early access!
 [i:1869][c/FF6A6A:@广大中国玩家 - 你们的支持与贡献！]
 
 [i:393][c/FFD700:联系方式][i:393]
-[i:2374][c/00BFFF:QQ：592853500（Dierney）]
-[i:2374][c/00BFFF:E-mail：dierney@foxmail.com]
-[i:2374][c/00BFFF:Discord：Dierney#0792]
+[i:2374][c/1E90FF:QQ：592853500（Dierney）]
+[i:2374][c/1E90FF:E-mail：dierney@foxmail.com]
+[i:2374][c/1E90FF:Discord：Dierney#0792]
 
 [i:3203][c/FFD700:替换文件][i:3203]
 [i:3828]Terraria.Localization.Content.zh-Hans.Game
@@ -245,12 +255,14 @@ Preview version, early access!
 
 [c/1E90FF:<模组>]
 [c/FF3030:=== v1.0 ===]
-(2018.10.20)
+(2018.11.24)
 正式完成＆发布！
 -更新<改良中文>
 -创建许可证(MIT许可证)
 -正式完善介绍
 -添加英文的更新日志
+-添加更多游戏标题
+-添加[未来计划]专栏
 -添加关于修复ThoriumMod Bug的备注(RemarkOfThoriumMod.txt)
 -你现在可以使用Mod Helpers在游戏中报告问题
 -删除愚蠢的版本限制
@@ -297,7 +309,7 @@ Preview version, early access!
 
 [c/FF3030:=== v0.3 ===]
 (2018.6.18)
--添加部分英文介绍(我们需要为此提供更好的文本!)
+-添加部分英文介绍(我们需要为此提供更好的文本！)
 -修正部分介绍
 
 [c/FF3030:=== v0.2 ===]
