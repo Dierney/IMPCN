@@ -33,18 +33,8 @@ namespace IMPCN
 
             if (random == null) random = new Random();
             //LoadAlternateChinese(LanguageManager.Instance);
-            
-            // If exists Thorium Mod
-            if (ModLoader.GetMod("ThoriumMod") != null)
-            {
-                LoadAlternateChinese(LanguageManager.Instance, "Terraria.Localization.ContentForThoriumMod.");
-                // see RemarkOfThoriumMod.txt for details.
-            }
 
-            else
-            {
-                LoadAlternateChinese(LanguageManager.Instance, "Terraria.Localization.Content.");
-            }
+            LoadAlternateChinese(LanguageManager.Instance, "Terraria.Localization.Content.");
         }
 
         public override void Unload()

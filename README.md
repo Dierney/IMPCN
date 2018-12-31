@@ -28,9 +28,14 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 - ItemPrefix  
 - DeathText  
 
+## Font Change
+- \*IMPCN doesn't support custom fonts at this time.\*  
+Tutorial(Chinese): http://q.gs/EeFEr  
+
 ## Future Plans  
-- Allows toggle translation texts(Vanilla, IMPCN] [c/1E90FF:& ThoriumMod).  
-- A exquisite icon!  
+- Allows toggle translation texts(Vanilla, IMPCN)  
+- Custom font  
+- A more exquisite icon!  
 
 ## Known Issues  
 - If you re-select the language will restore vanilla Chinese.  
@@ -95,13 +100,18 @@ IMPCN是个非常神奇的模组......
 - 物品前缀  
 - 死亡信息  
 
+## 字体更换
+- \*IMPCN暂不支持自定义字体\*  
+教程(中文)：http://q.gs/EeFEr  
+
 ## 未来计划  
-- 允许切换翻译文本(原版,改良中文＆瑟银)。  
-- 一个精美的图标！  
+- 在游戏中可以切换翻译文本(原版,改良中文)  
+- 自定义字体  
+- 一个更精美的图标！  
 
 ## 已知问题  
-- 如果重新选择语言会恢复替换文件。  
-- 需要禁用后重启游戏才能恢复官中。  
+- 如果重新选择语言会恢复替换文件  
+- 需要禁用后重启游戏才能恢复官中  
 
 ## 其他备注  
 - 该模组的源代码是开源的(MIT许可证)，你可以尝试使用相同的代码来实现其他语言的替换。  

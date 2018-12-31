@@ -27,9 +27,14 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [i:23][c/FF1493:ItemPrefix]
 [i:23][c/FF1493:DeathText]
 
+[i:425][c/FFD700:Font Change][i:425]
+[c/FF6A6A:*IMPCN doesn't support custom fonts at this time.*]
+[c/FF6A6A:Tutorial(Chinese): http://q.gs/EeFEr]
+
 [i:903][c/FFD700:Future Plans][i:903]
-[i:1874][c/1E90FF:Allows toggle translation texts(Vanilla, IMPCN] [c/1E90FF:& ThoriumMod).]
-[i:1874][c/1E90FF:A exquisite icon!]
+[i:1874][c/1E90FF:Allows toggle translation texts(Vanilla&IMPCN)]
+[i:1874][c/1E90FF:Custom font]
+[i:1874][c/1E90FF:A more exquisite icon!]
 
 [i:2442][c/FFD700:Known Issues][i:2442]
 [i:1344][c/00EE00:If you re-select the language will restore] [c/00EE00:vanilla Chinese.]
@@ -215,13 +220,18 @@ Preview version, early access!
 [i:23][c/FF1493:物品前缀]
 [i:23][c/FF1493:死亡信息]
 
+[i:425][c/FFD700:字体更换][i:425]
+[c/FF6A6A:*IMPCN暂不支持自定义字体*]
+[c/FF6A6A:教程(中文)：http://q.gs/EeFEr]
+
 [i:903][c/FFD700:未来计划][i:903]
-[i:1874][c/1E90FF:允许切换翻译文本(原版,改良中文＆瑟银)。]
-[i:1874][c/1E90FF:一个精美的图标！]
+[i:1874][c/1E90FF:在游戏中可以切换翻译文本(原版＆改良中文)]
+[i:1874][c/1E90FF:自定义字体]
+[i:1874][c/1E90FF:一个更精美的图标！]
 
 [i:2442][c/FFD700:已知问题][i:2442]
-[i:1344][c/00EE00:如果重新选择语言会恢复原版中文。]
-[i:1344][c/00EE00:需要禁用并重启游戏才能恢复官中。]
+[i:1344][c/00EE00:如果重新选择语言会恢复原版中文]
+[i:1344][c/00EE00:需要禁用并重启游戏才能恢复官中]
 
 [i:361][c/FFD700:其他备注][i:361]
 [i:1913][c/FF7F24:该模组的源代码是开源的(MIT许可证)，你可] [c/FF7F24:以尝试使用相同的代码来实现其他语言的替换。]
@@ -271,7 +281,7 @@ Preview version, early access!
 (2018.9.5)
 -更新<改良中文>
 -更好(?)的配色
--目前版本可直接修复ThoriumMod的异常崩溃Bug
+-当前版本可直接修复ThoriumMod的异常崩溃Bug
 (即不需要安装[IMPCN_v0.9.1FIX]亦可修复)
 
 [c/FF3030:=== v0.9 ===]
