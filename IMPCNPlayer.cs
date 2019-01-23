@@ -1,11 +1,10 @@
 using Terraria;
-using Terraria.ModLoader;
 using Terraria.GameInput;
+using Terraria.ModLoader;
 
 namespace IMPCN
 {
-
-    class IMPCNPlayer : ModPlayer
+    internal class IMPCNPlayer : ModPlayer
     {
 
         public override void OnEnterWorld(Player player)
@@ -16,7 +15,7 @@ namespace IMPCN
         public override void ProcessTriggers(TriggersSet triggersSet)
         {
             if (IMPCN.ToggleTranslationTextsHotKey.JustPressed)
-            { 
+            {
                 Main.NewText("此功能未实现，敬请期待......", 255, 48, 48, false);
             }
         }

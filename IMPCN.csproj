@@ -67,8 +67,6 @@
     <Content Include="icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ChineseReplacementsForThoriumMod\" />
-    <Folder Include="ChineseReplacementsForVanilla\" />
     <Folder Include="ChineseReplacements\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
