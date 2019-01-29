@@ -1,5 +1,5 @@
+using System;
 using Terraria;
-using Terraria.GameInput;
 using Terraria.ModLoader;
 
 namespace IMPCN
@@ -10,13 +10,12 @@ namespace IMPCN
         public override void OnEnterWorld(Player player)
         {
             Main.NewText("欢迎使用改良中文，请尽情享用吧！", 67, 110, 238, false);
-        }
 
-        public override void ProcessTriggers(TriggersSet triggersSet)
-        {
-            if (IMPCN.ToggleTranslationTextsHotKey.JustPressed)
+            Mod thoriumMod = ModLoader.GetMod("ThoriumMod");
+            Version fixed_vers = new Version(1, 5, 1, 2);
+            if (thoriumMod != null && thoriumMod.Version < fixed_vers)
             {
-                Main.NewText("此功能未实现，敬请期待......", 255, 48, 48, false);
+                Main.NewText("检测到你已启用ThoriumMod，且版本低于1.5.1.2，为修复异常崩溃Bug已修改某些文本(详见RemarkOfThoriumMod.txt)", 255, 20, 147, false);
             }
         }
     }

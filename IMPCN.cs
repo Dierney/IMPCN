@@ -5,8 +5,6 @@ using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
 
-// TODO: Pressed a hotKey to toggle translation texts(Vanilla, IMPCN & ThoriumMod).
-
 namespace IMPCN
 {
     internal class IMPCN : Mod
@@ -36,12 +34,19 @@ namespace IMPCN
             }
             //LoadAlternateChinese(LanguageManager.Instance);
 
-            LoadAlternateChinese(LanguageManager.Instance, "Terraria.Localization.Content.");
-        }
+            Mod thoriumMod = ModLoader.GetMod("ThoriumMod");
+            Version fixed_vers = new Version(1, 5, 1, 2);
+            // If exists Thorium Mod, and its version lower than 1.5.1.2.
+            if (thoriumMod != null && thoriumMod.Version < fixed_vers)
+            {
+                LoadAlternateChinese(LanguageManager.Instance, "Terraria.Localization.ContentForThoriumMod.");
+                // see RemarkOfThoriumMod.txt for details.
+            }
 
-        public override void Unload()
-        {
-            ToggleTranslationTextsHotKey = null;
+            else
+            {
+                LoadAlternateChinese(LanguageManager.Instance, "Terraria.Localization.Content.");
+            }
         }
 
         // Unfortunately this only works on mod reload. It won't work just by changing languages in game. 
@@ -54,9 +59,9 @@ namespace IMPCN
                 List<string> languageReplacementFilesForCulture = new List<string>();
                 foreach (string item in File)
                 {
-                    if (Path.GetFileNameWithoutExtension(item.Key).StartsWith(prefix + languageManager.ActiveCulture.CultureInfo.Name) && item.Key.EndsWith(".json"))
+                    if (Path.GetFileNameWithoutExtension(item).StartsWith(prefix + languageManager.ActiveCulture.CultureInfo.Name) && item.EndsWith(".json"))
                     {
-                        languageReplacementFilesForCulture.Add(item.Key);
+                        languageReplacementFilesForCulture.Add(item);
                     }
                 }
                 foreach (string translationFile in languageReplacementFilesForCulture)
@@ -68,7 +73,7 @@ namespace IMPCN
                     }
                     catch (Exception)
                     {
-                        ErrorLogger.Log("Failed to load language file: " + translationFile);
+                        Logger.InfoFormat("Failed to load language file: " + translationFile);
                         break;
                     }
                 }

@@ -4624,7 +4624,7 @@
 		"UnicornonaStick": "“祝你玩得开心!”",
 		"SandstorminaBottle": "赋予持有者二段跳的能力,而且跳得更高",
 		"CharmofMyths": "提供生命再生并减少治疗药水的冷却时间",
-		"MoonShell": "在晚上你将变成狼人,入水时将变成人鱼,你已经超...已经不是人了",
+		"MoonShell": "在晚上你将变成(金刚)狼人,入水时将变成(美)人鱼,你已经超...不是人了",
 		"StarVeil": "受到伤害后引起星辰坠落并延长无敌状态时间",
 		"WaterWalkingBoots": "提供水上行走的能力",
 		"MiningHelmet": "穿戴时可提供照明",
@@ -5503,8 +5503,8 @@
 		"RestoresMana": "恢复{0}法力值",
 		"SecondDuration": "{0}秒持续时间",
 		"String": "扩大悠悠球的攻击范围",
-		"UsesLife": "消耗{0}生命",
-		"UsesMana": "消耗{0}法力"
+		"UsesLife": "消耗 {0} 生命",
+		"UsesMana": "消耗 {0} 法力"
 	},
 	"BuffDescription": {
 		"WellFed_Expert": "小幅度提升所有属性,提高生命再生速度"

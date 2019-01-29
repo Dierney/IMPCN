@@ -1,4 +1,4 @@
-displayName = IMPCN (Improvement of Chinese language)
+displayName = IMPCN (Improvement of Chinese)
 author = 抗药又坚硬汉化组 (SBMW GROUP), jopojelly
 version = 1.1
 side = Client
@@ -6,5 +6,5 @@ hideResources = false
 hideCode = false
 includeSource = true
 includePDB = true
-buildIgnore = *.csproj, *.sln, obj\*, bin\*, *.suo, *.user, .git\*, .vs\*, Libraries\*, *.md
+buildIgnore = *.csproj, obj\*, bin\*, *.user, .vs\*, *.md
 homepage = https://github.com/Dierney/IMPCN

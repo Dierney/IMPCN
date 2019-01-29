@@ -32,7 +32,6 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [c/FF6A6A:Tutorial(Chinese): http://q.gs/EeFEr]
 
 [i:903][c/FFD700:Future Plans][i:903]
-[i:1874][c/1E90FF:Allows toggle translation texts(Vanilla&IMPCN)]
 [i:1874][c/1E90FF:Custom font]
 [i:1874][c/1E90FF:A more exquisite icon!]
 
@@ -225,7 +224,6 @@ Preview version, early access!
 [c/FF6A6A:教程(中文)：http://q.gs/EeFEr]
 
 [i:903][c/FFD700:未来计划][i:903]
-[i:1874][c/1E90FF:在游戏中可以切换翻译文本(原版＆改良中文)]
 [i:1874][c/1E90FF:自定义字体]
 [i:1874][c/1E90FF:一个更精美的图标！]
 
