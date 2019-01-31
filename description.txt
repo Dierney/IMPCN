@@ -70,6 +70,15 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [i:3120][c/FFD700:Changelogs][i:3120]
 
 [c/1E90FF:<Mod>]
+[c/FF3030:=== v1.1 ===]
+(2019.2.5)
+Happy New Year!!!
+-Updated <IMPCN>
+-Updated to tModLoader v0.11
+-Code Cleanup & optimization
+-Added more game titles
+-Added Changelogs.txt
+
 [c/FF3030:=== v1.0 ===]
 (2018.11.24)
 Officially Completed & Released!
@@ -109,7 +118,7 @@ Waiting for new icon...
 
 [c/FF3030:=== v0.6 ===]
 (2018.7.16)
--Updated to tModLoader 0.10.1.5
+-Updated to tModLoader v0.10.1.5
 -Updated <IMPCN>
 -Added [Special Thanks] column
 
@@ -142,6 +151,10 @@ Initial Released!
 (This version is for testing purposes only)
 
 [c/1E90FF:<IMPCN>]
+[c/FF3030:=== v1.1 ===]
+(2019.2.5)
+-Amended a lot of texts
+
 [c/FF3030:=== v1.0 ===]
 (2018.10.20)
 Officially Completed!
@@ -262,6 +275,15 @@ Preview version, early access!
 [i:3120][c/FFD700:更新日志][i:3120]
 
 [c/1E90FF:<模组>]
+[c/FF3030:=== v1.1 ===]
+(2019.2.5)
+新春快乐！！！
+-更新<改良中文>
+-更新至tModLoader v0.11
+-代码清理＆优化
+-添加更多游戏标题
+-添加更新日志文本
+
 [c/FF3030:=== v1.0 ===]
 (2018.11.24)
 正式完成＆发布！
@@ -301,7 +323,7 @@ Preview version, early access!
 
 [c/FF3030:=== v0.6 ===]
 (2018.7.16)
--更新tML版本至v0.10.1.5
+-更新至tModLoader v0.10.1.5
 -更新<改良中文>
 -添加[特别鸣谢]专栏
 

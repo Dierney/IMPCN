@@ -10,8 +10,6 @@ namespace IMPCN
     internal class IMPCN : Mod
     {
 
-        public static ModHotKey ToggleTranslationTextsHotKey;
-
         private static Random random = null;
         private static string[] titles = null;
 
@@ -26,7 +24,12 @@ namespace IMPCN
 
         public override void Load()
         {
-            ToggleTranslationTextsHotKey = RegisterHotKey("Toggle Translation Texts", "L");
+
+            // The new version of tModLoader has been updated C#.
+            if (ModLoader.version < new Version(0, 11))
+            {
+                throw new Exception("\nThis mod uses functionality only present in the latest tModLoader. Please update tModLoader to use this mod\n\n");
+            }
 
             if (random == null)
             {
@@ -34,18 +37,22 @@ namespace IMPCN
             }
             //LoadAlternateChinese(LanguageManager.Instance);
 
-            Mod thoriumMod = ModLoader.GetMod("ThoriumMod");
-            Version fixed_vers = new Version(1, 5, 1, 2);
-            // If exists Thorium Mod, and its version lower than 1.5.1.2.
-            if (thoriumMod != null && thoriumMod.Version < fixed_vers)
+            if (LanguageManager.Instance.ActiveCulture == GameCulture.Chinese)
             {
-                LoadAlternateChinese(LanguageManager.Instance, "Terraria.Localization.ContentForThoriumMod.");
-                // see RemarkOfThoriumMod.txt for details.
-            }
+                Mod thoriumMod = ModLoader.GetMod("ThoriumMod");
+                Version fixed_vers = new Version(1, 5, 1, 2);
+                // ThoriumMod fixed the bug in version 1.5.1.2.
+                // If exists ThoriumMod, and its version lower than 1.5.1.2.
+                if (thoriumMod != null && thoriumMod.Version < fixed_vers)
+                {
+                    LoadAlternateChinese(LanguageManager.Instance, "Terraria.Localization.ContentForThoriumMod.");
+                    // see RemarkOfThoriumMod.txt for details.
+                }
 
-            else
-            {
-                LoadAlternateChinese(LanguageManager.Instance, "Terraria.Localization.Content.");
+                else
+                {
+                    LoadAlternateChinese(LanguageManager.Instance, "Terraria.Localization.Content.");
+                }
             }
         }
 

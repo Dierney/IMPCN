@@ -3,6 +3,7 @@
 (2019.2.5)
 Happy New Year!!!
 -Updated <IMPCN>
+-Updated to tModLoader v0.11
 -Code Cleanup & optimization
 -Added more game titles
 -Added Changelogs.txt
@@ -46,7 +47,7 @@ Waiting for new icon...
 
 === v0.6 ===
 (2018.7.16)
--Updated to tModLoader 0.10.1.5
+-Updated to tModLoader v0.10.1.5
 -Updated <IMPCN>
 -Added [Special Thanks] column
 
@@ -139,6 +140,7 @@ Preview version, early access!
 (2019.2.5)
 新春快乐！！！
 -更新<改良中文>
+-更新至tModLoader v0.11
 -代码清理＆优化
 -添加更多游戏标题
 -添加更新日志文本
@@ -182,7 +184,7 @@ Preview version, early access!
 
 === v0.6 ===
 (2018.7.16)
--更新tML版本至v0.10.1.5
+-更新至tModLoader v0.10.1.5
 -更新<改良中文>
 -添加[特别鸣谢]专栏
 
