@@ -1,6 +1,6 @@
 # IMPCN
-IMPCN is a fantastic mod...
-It improves and polishes the Chinese translation!
+IMPCN is a fantastic mod...  
+It improves and polishes the Chinese translation!  
 ~~"The official Chinese Translation sucks!"~~
 
 **\*It only applies to Chinese players\***
@@ -27,6 +27,10 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 ## Unmodified Projects
 - ItemPrefix
 - DeathText
+
+## Query Command
+- Usage: /impcn \<ItemName>
+- Description: Query ItemName (ID, ImprovedName, OldImprovedName, OriginalName, EnglishName, ClassName)
 
 ## Font Change
 - \*IMPCN doesn't support custom fonts at this time.\*
@@ -70,8 +74,8 @@ Tutorial(Chinese): http://q.gs/EeFEr
 
 # \=======================================
 
-IMPCN是个非常神奇的模组......
-它改良了原版中文，使其翻译更加完美！
+IMPCN是个非常神奇的模组......  
+它改良了原版中文，使其翻译更加完美！  
 ~~“官方中文真是太糟糕了！”~~
 
 **\*它仅供中国玩家使用\***
@@ -98,6 +102,10 @@ IMPCN是个非常神奇的模组......
 ## 未更改项目  
 - 物品前缀
 - 死亡信息
+
+## 查询指令
+- 用法：/impcn \<ItemName>
+- 描述：查询物品名 (ID,改良,旧版,原版,英文,类名)
 
 ## 字体更换
 - \*IMPCN暂不支持自定义字体\*

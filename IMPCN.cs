@@ -1,6 +1,6 @@
 using System;
-using System.Collections.Generic;
 using System.IO;
+using System.Text;
 using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
@@ -10,7 +10,7 @@ namespace IMPCN
     internal class IMPCN : Mod
     {
 
-        private static Random random = null;
+        public static Random random = null;
         private static string[] titles = null;
 
         // Allows the use of Mod Helpers to receive in-game issue reports from players.
@@ -18,12 +18,17 @@ namespace IMPCN
         public static string GithubUserName => "Dierney";
         public static string GithubProjectName => "IMPCN";
 
+        public static IMPCN instance;
+
         public IMPCN()
         {
         }
 
         public override void Load()
         {
+            instance = this;
+
+            IMPCNExtension.Load();
 
             // The new version of tModLoader has been updated C#.
             if (ModLoader.version < new Version(0, 11))
@@ -63,37 +68,33 @@ namespace IMPCN
             // If Chinese is being loaded.
             if (languageManager.ActiveCulture == GameCulture.Chinese)
             {
-                List<string> languageReplacementFilesForCulture = new List<string>();
                 foreach (string item in File)
                 {
                     if (Path.GetFileNameWithoutExtension(item).StartsWith(prefix + languageManager.ActiveCulture.CultureInfo.Name) && item.EndsWith(".json"))
                     {
-                        languageReplacementFilesForCulture.Add(item);
-                    }
-                }
-                foreach (string translationFile in languageReplacementFilesForCulture)
-                {
-                    try
-                    {
-                        string translationFileContents = System.Text.Encoding.UTF8.GetString(GetFileBytes(translationFile));
-                        languageManager.LoadLanguageFromFileText(translationFileContents);
-                    }
-                    catch (Exception)
-                    {
-                        Logger.InfoFormat("Failed to load language file: " + translationFile);
-                        break;
+                        try
+                        {
+                            languageManager.LoadLanguageFromFileText(Encoding.UTF8.GetString(GetFileBytes(item)));
+                        }
+                        catch
+                        {
+                            Logger.InfoFormat("Failed to load language file: " + item);
+                        }
                     }
                 }
 
-                // Replace Chinese game titles.
-                if (!Main.dedServ)
+                if (LanguageManager.Instance.ActiveCulture == GameCulture.Chinese)
                 {
-                    if (titles == null)
+                    // Replace Chinese game titles.
+                    if (!Main.dedServ)
                     {
-                        titles = System.Text.Encoding.UTF8.GetString(GetFileBytes("GameTitles.txt")).Split('\n');
-                    }
+                        if (titles == null)
+                        {
+                            titles = Encoding.UTF8.GetString(GetFileBytes("GameTitles.txt")).Split('\n');
+                        }
 
-                    Main.instance.Window.Title = titles[random.Next(titles.Length)];
+                        Main.instance.Window.Title = titles[random.Next(titles.Length)];
+                    }
                 }
             }
         }

@@ -27,6 +27,10 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [i:23][c/FF1493:ItemPrefix]
 [i:23][c/FF1493:DeathText]
 
+[i:321][c/FFD700:Query Command][i:321]
+[c/00EE00:Usage: /impcn <ItemName>]
+[c/00EE00:Description: Query ItemName (ID, ImprovedName,] [c/00EE00:OriginalName, EnglishName, ClassName)]
+
 [i:425][c/FFD700:Font Change][i:425]
 [c/FF6A6A:*IMPCN doesn't support custom fonts at this time.*]
 [c/FF6A6A:Tutorial(Chinese): http://q.gs/EeFEr]
@@ -76,6 +80,7 @@ Happy New Year!!!
 -Updated <IMPCN>
 -Updated to tModLoader v0.11
 -Code Cleanup & optimization
+-Added [QueryItemName] (ID, ImprovedName, OldImprovedName, OriginalName, EnglishName, ClassName) command - @Rebuild
 -Added more game titles
 -Added Changelogs.txt
 
@@ -232,6 +237,10 @@ Preview version, early access!
 [i:23][c/FF1493:物品前缀]
 [i:23][c/FF1493:死亡信息]
 
+[i:321][c/FFD700:查询指令][i:321]
+[c/00EE00:用法：/impcn <ItemName>]
+[c/00EE00:描述：查询物品名 (ID,改良,旧版,原版,英文,类名)]
+
 [i:425][c/FFD700:字体更换][i:425]
 [c/FF6A6A:*IMPCN暂不支持自定义字体*]
 [c/FF6A6A:教程(中文)：http://q.gs/EeFEr]
@@ -281,6 +290,7 @@ Preview version, early access!
 -更新<改良中文>
 -更新至tModLoader v0.11
 -代码清理＆优化
+-添加[查询物品名](ID,改良,原版,英文,类名)指令 - @Rebuild
 -添加更多游戏标题
 -添加更新日志文本
 

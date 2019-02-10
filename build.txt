@@ -6,5 +6,5 @@ hideResources = false
 hideCode = false
 includeSource = true
 includePDB = true
-buildIgnore = *.csproj, obj\*, bin\*, *.user, .vs\*, *.md
+buildIgnore = .gitattributes, .gitignore, .git/, .vs/, .idea/, bin/, obj/, Thumbs.db, .csproj, .cs, .sln, *.md, references\*
 homepage = https://github.com/Dierney/IMPCN
