@@ -213,7 +213,7 @@ namespace IMPCN
                     break;
                 }
             }
-            JArray jarr = JArray.Parse(Encoding.UTF8.GetString(raw, 3, raw.Length - 3));
+            JArray jarr = JArray.Parse(Encoding.UTF8.GetString(raw));
             foreach (JObject jobj in jarr)
             {
                 try
