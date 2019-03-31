@@ -84,7 +84,7 @@ Initial Released!
 <IMPCN>
 === v1.1 ===
 (2019.2.5)
--Amended a lot of texts
+-Amended a lot of texts - thanks @SPRshachuku
 
 === v1.0 ===
 (2018.10.20)
@@ -222,7 +222,7 @@ Preview version, early access!
 <改良中文>
 === v1.1 ===
 (2019.2.5)
--修正大量文本
+-修正大量文本 - 感谢@SPRshachuku
 
 === v1.0 ===
 (2018.10.20)

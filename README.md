@@ -51,7 +51,7 @@ Tutorial(Chinese): http://q.gs/EeFEr
 ## Staffs
 - Founder: 星陨玫瑰 (Dierney)
 - Improver: 星陨玫瑰, 黎执, 小藜, 火, Rebuild
-- Coder: jopojelly, Rebuild, 叶凌, DXTsT, 星陨玫瑰, 流光
+- Coder: jopojelly, Rebuild, 叶凌, DXTsT, 星陨玫瑰, 流光  
 (Except for jopojelly, are all Members of the SBMW)
 
 ## Special Thanks
@@ -126,7 +126,7 @@ IMPCN是个非常神奇的模组......
 ## 制作成员
 - 总策划：星陨玫瑰（Dierney）
 - 中文改良：星陨玫瑰, 黎执, 小藜, 火, Rebuild
-- 模组编写：jopojelly, Rebuild, 叶凌, 星陨玫瑰, 流光
+- 模组编写：jopojelly, Rebuild, 叶凌, 星陨玫瑰, 流光  
 （除jopojelly外，均为抗药又坚硬汉化组成员）
 
 ## 特别鸣谢

@@ -158,7 +158,7 @@ Initial Released!
 [c/1E90FF:<IMPCN>]
 [c/FF3030:=== v1.1 ===]
 (2019.2.5)
--Amended a lot of texts
+-Amended a lot of texts - thanks @SPRshachuku
 
 [c/FF3030:=== v1.0 ===]
 (2018.10.20)
@@ -366,6 +366,10 @@ Preview version, early access!
 (该版本仅用于测试)
 
 [c/1E90FF:<改良中文>]
+[c/FF3030:=== v1.1 ===]
+(2019.2.5)
+-修正大量文本 - 感谢@SPRshachuku
+
 [c/FF3030:=== v1.0 ===]
 (2018.10.20)
 正式完成！
