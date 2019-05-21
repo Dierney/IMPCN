@@ -2,9 +2,12 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using Terraria;
+using Terraria.ModLoader;
+using Terraria.ModLoader.Core;
 
 namespace IMPCN
 {
@@ -205,11 +208,12 @@ namespace IMPCN
         private static void Internal_LoadOldImproved1344Name()
         {
             byte[] raw = null;
-            foreach (string item in IMPCN.instance.File)
+            TmodFile file1 = typeof(Mod).GetProperty("File", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(IMPCN.instance) as TmodFile;
+            foreach (TmodFile.FileEntry item in file1)
             {
-                if (item.EndsWith("old_improved_1344.json"))
+                if (item.Name.EndsWith("old_improved_1344.json"))
                 {
-                    raw = IMPCN.instance.File.GetBytes(item);
+                    raw = file1.GetBytes(item);
                     break;
                 }
             }
@@ -243,11 +247,12 @@ namespace IMPCN
         private static void Internal_LoadJson(string file, Dictionary<string, string> dict)
         {
             byte[] raw = null;
-            foreach (string item in IMPCN.instance.File)
+            TmodFile file1 = typeof(Mod).GetProperty("File", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(IMPCN.instance) as TmodFile;
+            foreach (TmodFile.FileEntry item in file1)
             {
-                if (item.EndsWith(file))
+                if (item.Name.EndsWith(file))
                 {
-                    raw = IMPCN.instance.File.GetBytes(item);
+                    raw = file1.GetBytes(item);
                     break;
                 }
             }
@@ -270,11 +275,12 @@ namespace IMPCN
         private static void Internal_LoadItemID()
         {
             byte[] raw = null;
-            foreach (string item in IMPCN.instance.File)
+            TmodFile file1 = typeof(Mod).GetProperty("File", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(IMPCN.instance) as TmodFile;
+            foreach (TmodFile.FileEntry item in file1)
             {
-                if (item.EndsWith("itemID.txt"))
+                if (item.Name.EndsWith("itemID.txt"))
                 {
-                    raw = IMPCN.instance.File.GetBytes(item);
+                    raw = file1.GetBytes(item);
                     break;
                 }
             }

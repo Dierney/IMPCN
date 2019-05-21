@@ -1,9 +1,11 @@
 using System;
 using System.IO;
+using System.Reflection;
 using System.Text;
 using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
+using Terraria.ModLoader.Core;
 
 namespace IMPCN
 {
@@ -68,13 +70,16 @@ namespace IMPCN
             // If Chinese is being loaded.
             if (languageManager.ActiveCulture == GameCulture.Chinese)
             {
-                foreach (string item in File)
+                foreach (TmodFile.FileEntry item in
+                    typeof(Mod)
+                    .GetProperty("File", BindingFlags.NonPublic | BindingFlags.Instance)
+                    .GetValue(this) as TmodFile)
                 {
-                    if (Path.GetFileNameWithoutExtension(item).StartsWith(prefix + languageManager.ActiveCulture.CultureInfo.Name) && item.EndsWith(".json"))
+                    if (Path.GetFileNameWithoutExtension(item.Name).StartsWith(prefix + languageManager.ActiveCulture.CultureInfo.Name) && item.Name.EndsWith(".json"))
                     {
                         try
                         {
-                            languageManager.LoadLanguageFromFileText(Encoding.UTF8.GetString(GetFileBytes(item)));
+                            languageManager.LoadLanguageFromFileText(Encoding.UTF8.GetString(GetFileBytes(item.Name)));
                         }
                         catch
                         {
