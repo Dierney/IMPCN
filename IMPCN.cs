@@ -14,6 +14,7 @@ namespace IMPCN
 
         public static Random random = null;
         private static string[] titles = null;
+        internal ModHotKey QueryItemNameHotKey;
 
         // Allows the use of Mod Helpers to receive in-game issue reports from players.
         // https://forums.terraria.org/index.php?threads/mod-helpers.63670/#modders
@@ -31,6 +32,8 @@ namespace IMPCN
             instance = this;
 
             IMPCNExtension.Load();
+
+            QueryItemNameHotKey = RegisterHotKey("Query Item Name", "Z");
 
             // The new version of tModLoader has been updated C#.
             if (ModLoader.version < new Version(0, 11))
@@ -61,6 +64,11 @@ namespace IMPCN
                     LoadAlternateChinese(LanguageManager.Instance, "Terraria.Localization.Content.");
                 }
             }
+        }
+
+        public override void Unload()
+        {
+            QueryItemNameHotKey = null;
         }
 
         // Unfortunately this only works on mod reload. It won't work just by changing languages in game. 

@@ -1,7 +1,6 @@
 <Mod>
 === v1.1 ===
-(2019.2.5)
-Happy New Year!!!
+(XXX)
 -Updated <IMPCN>
 -Updated to tModLoader v0.11
 -Code Cleanup & optimization
@@ -83,7 +82,7 @@ Initial Released!
 
 <IMPCN>
 === v1.1 ===
-(2019.2.5)
+(XXX)
 -Amended a lot of texts - thanks @SPRshachuku
 
 === v1.0 ===
@@ -138,8 +137,7 @@ Preview version, early access!
 
 <模组>
 === v1.1 ===
-(2019.2.5)
-新春快乐！！！
+(XXX)
 -更新<改良中文>
 -更新至tModLoader v0.11
 -代码清理＆优化
@@ -221,7 +219,7 @@ Preview version, early access!
 
 <改良中文>
 === v1.1 ===
-(2019.2.5)
+(XXX)
 -修正大量文本 - 感谢@SPRshachuku
 
 === v1.0 ===

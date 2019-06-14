@@ -55,6 +55,7 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 
 [i:1920][c/FFD700:Special Thanks][i:1920]
 [i:1869][c/FF6A6A:@onikwuthkro - English translation of Info!]
+[i:1869][c/FF6A6A:@SPRshachuku - Amended a lot of texts!]
 [i:1869][c/FF6A6A:@The general Chinese Players - Your] [c/FF6A6A:support and contribution!]
 
 [i:393][c/FFD700:Contacts][i:393]
@@ -75,8 +76,7 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 
 [c/1E90FF:<Mod>]
 [c/FF3030:=== v1.1 ===]
-(2019.2.5)
-Happy New Year!!!
+(XXX)
 -Updated <IMPCN>
 -Updated to tModLoader v0.11
 -Code Cleanup & optimization
@@ -157,7 +157,7 @@ Initial Released!
 
 [c/1E90FF:<IMPCN>]
 [c/FF3030:=== v1.1 ===]
-(2019.2.5)
+(XXX)
 -Amended a lot of texts - thanks @SPRshachuku
 
 [c/FF3030:=== v1.0 ===]
@@ -255,7 +255,7 @@ Preview version, early access!
 
 [i:361][c/FFD700:其他备注][i:361]
 [i:1913][c/FF7F24:该模组的源代码是开源的(MIT许可证)，你可] [c/FF7F24:以尝试使用相同的代码来实现其他语言的替换。]
-[i:1913][c/FF7F24:请不勿以任何形式盗用改良中文的文本，否] [c/FF7F24:则将视为侵权。]
+[i:1913][c/FF7F24:请勿以任何形式盗用改良中文的文本，否] [c/FF7F24:则将视为侵权。]
 
 [i:487][c/FFD700:制作成员][i:487]
 [i:3461][c/EE00EE:总策划：星陨玫瑰（Dierney）]
@@ -265,6 +265,7 @@ Preview version, early access!
 
 [i:1920][c/FFD700:特别鸣谢][i:1920]
 [i:1869][c/FF6A6A:@onikwuthkro - 介绍的英文翻译！]
+[i:1869][c/FF6A6A:@SPRshachuku - 修正大量文本！]
 [i:1869][c/FF6A6A:@广大中国玩家 - 你们的支持与贡献！]
 
 [i:393][c/FFD700:联系方式][i:393]
@@ -285,8 +286,7 @@ Preview version, early access!
 
 [c/1E90FF:<模组>]
 [c/FF3030:=== v1.1 ===]
-(2019.2.5)
-新春快乐！！！
+(XXX)
 -更新<改良中文>
 -更新至tModLoader v0.11
 -代码清理＆优化
@@ -367,7 +367,7 @@ Preview version, early access!
 
 [c/1E90FF:<改良中文>]
 [c/FF3030:=== v1.1 ===]
-(2019.2.5)
+(XXX)
 -修正大量文本 - 感谢@SPRshachuku
 
 [c/FF3030:=== v1.0 ===]
