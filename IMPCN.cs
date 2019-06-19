@@ -33,6 +33,9 @@ namespace IMPCN
 
             IMPCNExtension.Load();
 
+            Main.versionNumber = "v1.3.5.2\nIMPCN v" + instance.Version.ToString();
+            Main.versionNumber2 = "v1.3.5.2\nIMPCN v" + instance.Version.ToString();
+
             QueryItemNameHotKey = RegisterHotKey("Query Item Name", "Z");
 
             // The new version of tModLoader has been updated C#.
