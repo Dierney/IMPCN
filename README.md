@@ -3,8 +3,8 @@
 [![tModLoader](https://img.shields.io/badge/tModLoader-v0.11%20Beta%206-orange.svg)](https://github.com/blushiemagic/tModLoader/releases/v0.11-beta6/)
 [![GitHub release](https://img.shields.io/badge/release-1.0-ff69b4.svg)](https://github.com/Dierney/IMPCN/releases/latest)
 
-IMPCN is a fantastic mod...
-It improves and polishes the Chinese translation!
+IMPCN is a fantastic mod...  
+It improves and polishes the Chinese translation!  
 ~~"The official Chinese Translation sucks!"~~
 
 **\*It only applies to Chinese players\***
