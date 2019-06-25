@@ -11,7 +11,7 @@ namespace IMPCN
 		{
 			if (IMPCN.instance.GetPlayer<IMPCNPlayer>().ShowInTooltip)
 			{
-				var i = IMPCNExtension.GetItem(item.netID);
+				var i = IMPCNExtension.GetItem(item.GetType().Name);
 				if (i == null)
 					return;
 				Color c = Util.RandomColor();
