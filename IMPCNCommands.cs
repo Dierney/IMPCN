@@ -21,7 +21,7 @@ namespace IMPCN
                 return;
             }
 
-            if (!IMPCNExtension.b)
+            if (IMPCNExtension.enabled)
             {
                 System.Collections.Generic.HashSet<ItemWithName> item = IMPCNExtension.GetExactItem(args[0].Replace('_', ' '));
                 if (item == null)

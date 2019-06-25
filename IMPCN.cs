@@ -14,7 +14,8 @@ namespace IMPCN
 
         public static Random random = null;
         private static string[] titles = null;
-        internal ModHotKey QueryItemNameHotKey;
+
+        public ModHotKey ToggleAddTooltipHotkey { get; private set; }
 
         // Allows the use of Mod Helpers to receive in-game issue reports from players.
         // https://forums.terraria.org/index.php?threads/mod-helpers.63670/#modders
@@ -36,7 +37,7 @@ namespace IMPCN
             Main.versionNumber = "v1.3.5.2\nIMPCN v" + instance.Version.ToString();
             Main.versionNumber2 = "v1.3.5.2\nIMPCN v" + instance.Version.ToString();
 
-            QueryItemNameHotKey = RegisterHotKey("Query Item Name", "Z");
+            ToggleAddTooltipHotkey = RegisterHotKey("设置是否在物品说明中显示", "Z");
 
             // The new version of tModLoader has been updated C#.
             if (ModLoader.version < new Version(0, 11))
@@ -71,7 +72,7 @@ namespace IMPCN
 
         public override void Unload()
         {
-            QueryItemNameHotKey = null;
+            ToggleAddTooltipHotkey = null;
         }
 
         // Unfortunately this only works on mod reload. It won't work just by changing languages in game. 
@@ -81,7 +82,7 @@ namespace IMPCN
             // If Chinese is being loaded.
             if (languageManager.ActiveCulture == GameCulture.Chinese)
             {
-                foreach (TmodFile.FileEntry item in
+	            foreach (TmodFile.FileEntry item in
                     typeof(Mod)
                     .GetProperty("File", BindingFlags.NonPublic | BindingFlags.Instance)
                     .GetValue(this) as TmodFile)
