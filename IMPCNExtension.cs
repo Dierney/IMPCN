@@ -21,7 +21,7 @@ namespace IMPCN
         public static Dictionary<int, string> idDict;
         public static Dictionary<string, int> getIdDict;
 
-        public static bool b;
+        public static bool enabled;
 
         public static bool HasLoaded { get; set; }
 
@@ -43,7 +43,7 @@ namespace IMPCN
             Internal_LoadOriginal();
             Internal_LoadEnglish();
 
-            b = false;
+            enabled = true;
         }
 
         public static HashSet<ItemWithName> GetExactItem(string name)

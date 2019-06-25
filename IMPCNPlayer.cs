@@ -1,14 +1,25 @@
 using System;
 using Terraria;
+using Terraria.GameInput;
 using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace IMPCN
 {
-    internal class IMPCNPlayer : ModPlayer
+    public class IMPCNPlayer : ModPlayer
     {
+	    public bool ShowInTooltip { get; private set; } = false;
 
-        public override void OnEnterWorld(Player player)
+	    public override void ProcessTriggers(TriggersSet triggersSet)
+	    {
+		    if (IMPCN.instance.ToggleAddTooltipHotkey.JustPressed)
+		    {
+			    ShowInTooltip = !ShowInTooltip;
+				Main.NewText("在物品说明中显示各版本名称：" + (ShowInTooltip ? "开启" : "关闭"));
+		    }
+	    }
+
+	    public override void OnEnterWorld(Player player)
         {
             if (LanguageManager.Instance.ActiveCulture == GameCulture.Chinese)
             {
