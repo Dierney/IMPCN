@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 
 namespace IMPCN
 {
-    internal class QueryItemNameCommand : CommandTemplate
+    public class QueryItemNameCommand : CommandTemplate
     {
         public QueryItemNameCommand()
         {

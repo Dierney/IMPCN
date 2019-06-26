@@ -1,6 +1,6 @@
 namespace IMPCN
 {
-    internal class ItemWithName
+    public class ItemWithName
     {
         public readonly int ID;
 

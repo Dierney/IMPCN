@@ -8,14 +8,17 @@ namespace IMPCN
 {
     public class IMPCNPlayer : ModPlayer
     {
-	    public bool ShowInTooltip { get; private set; } = false;
-
 	    public override void ProcessTriggers(TriggersSet triggersSet)
 	    {
-		    if (IMPCN.instance.ToggleAddTooltipHotkey.JustPressed)
+		    if (IMPCN.instance.ShowTextKey.JustPressed)
 		    {
-			    ShowInTooltip = !ShowInTooltip;
-				Main.NewText("在物品说明中显示各版本名称：" + (ShowInTooltip ? "开启" : "关闭"));
+			    var item = Main.HoverItem;
+			    if (item == null)
+				    return;
+			    var info = IMPCNExtension.GetItem(item.type);
+			    if (info == null)
+				    return;
+				QueryItemNameCommand.WriteItem(info);
 		    }
 	    }
 
