@@ -37,7 +37,7 @@ namespace IMPCN
             Main.versionNumber = "v1.3.5.2\nIMPCN v" + instance.Version.ToString();
             Main.versionNumber2 = "v1.3.5.2\nIMPCN v" + instance.Version.ToString();
 
-            ShowTextKey = RegisterHotKey("ÉèÖÃÊÇ·ñÔÚÎïÆ·ËµÃ÷ÖĞÏÔÊ¾", "Z");
+            ShowTextKey = RegisterHotKey("æ˜¾ç¤ºç‰©å“åç§°(å…‰æ ‡æ‰€æŒ‡)", "Z");
 
             // The new version of tModLoader has been updated C#.
             if (ModLoader.version < new Version(0, 11))
@@ -82,7 +82,7 @@ namespace IMPCN
             // If Chinese is being loaded.
             if (languageManager.ActiveCulture == GameCulture.Chinese)
             {
-	            foreach (TmodFile.FileEntry item in
+                foreach (TmodFile.FileEntry item in
                     typeof(Mod)
                     .GetProperty("File", BindingFlags.NonPublic | BindingFlags.Instance)
                     .GetValue(this) as TmodFile)

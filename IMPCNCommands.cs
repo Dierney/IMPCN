@@ -46,7 +46,7 @@ namespace IMPCN
             Main.NewText("改良：" + item.ImprovedName, color[0], color[1], color[2]);
             Main.NewText("旧版(v1.3.5.1)：" + item.OldImproved1351Name, color[0], color[1], color[2]);
             Main.NewText("旧版(v1.3.4.4)：" + item.OldImproved1344Name, color[0], color[1], color[2]);
-            Main.NewText("原版：" + item.OriginalName, color[0], color[1], color[2]);
+            Main.NewText("原版(官方中文)：" + item.OriginalName, color[0], color[1], color[2]);
             Main.NewText("英文：" + item.EnglishName, color[0], color[1], color[2]);
             Main.NewText("类名：" + item.ClassName, color[0], color[1], color[2]);
         }
