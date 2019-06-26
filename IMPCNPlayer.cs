@@ -13,12 +13,30 @@ namespace IMPCN
 		    if (IMPCN.instance.ShowTextKey.JustPressed)
 		    {
 			    var item = Main.HoverItem;
+			    int id;
 			    if (item == null)
-				    return;
-			    var info = IMPCNExtension.GetItem(item.type);
+			    {
+				    var tile = Main.tile[Player.tileTargetX, Player.tileTargetY];
+				    if (tile == null)
+					    return;
+				    id = tile.blockType();
+			    }
+			    else
+			    {
+				    id = item.type;
+			    }
+			    var info = IMPCNExtension.GetItem(id);
 			    if (info == null)
-				    return;
-				QueryItemNameCommand.WriteItem(info);
+			    {
+				    var modItem = ItemLoader.GetItem(id);
+					info = new ItemWithName(
+						id: item.type, 
+						clazz: item.GetType().Name, 
+						english: modItem.DisplayName.GetDefault(), 
+						original: modItem.DisplayName.GetTranslation(GameCulture.Chinese)
+					);
+			    }
+			    QueryItemNameCommand.WriteItem(info);
 		    }
 	    }
 

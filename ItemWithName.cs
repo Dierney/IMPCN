@@ -16,7 +16,7 @@ namespace IMPCN
 
         public readonly string EnglishName;
 
-        public ItemWithName(int id, string clazz, string improved, string old_improved_1351, string old_improved_1344, string original, string english)
+        public ItemWithName(int id, string clazz, string improved = null, string old_improved_1351 = null, string old_improved_1344 = null, string original = null, string english = null)
         {
             ID = id;
             ClassName = clazz;
