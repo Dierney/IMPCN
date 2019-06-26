@@ -29,8 +29,9 @@ namespace IMPCN
 			    if (info == null)
 			    {
 				    var modItem = ItemLoader.GetItem(id);
+				    item = modItem.item;
 					info = new ItemWithName(
-						id: item.type, 
+						id: id, 
 						clazz: item.GetType().Name, 
 						english: modItem.DisplayName.GetDefault(), 
 						original: modItem.DisplayName.GetTranslation(GameCulture.Chinese)
