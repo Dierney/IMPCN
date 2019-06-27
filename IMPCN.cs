@@ -37,7 +37,7 @@ namespace IMPCN
             Main.versionNumber = "v1.3.5.2\nIMPCN v" + instance.Version.ToString();
             Main.versionNumber2 = "v1.3.5.2\nIMPCN v" + instance.Version.ToString();
 
-            ShowTextKey = RegisterHotKey("显示物品名称(光标所指)", "Z");
+            ShowTextKey = RegisterHotKey("查询物品名称(鼠标悬停)", "Z");
 
             // The new version of tModLoader has been updated C#.
             if (ModLoader.version < new Version(0, 11))
