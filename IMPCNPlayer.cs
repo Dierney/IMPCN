@@ -8,18 +8,27 @@ namespace IMPCN
 {
     public class IMPCNPlayer : ModPlayer
     {
-	    public bool ShowInTooltip { get; private set; } = false;
+        public override void ProcessTriggers(TriggersSet triggersSet)
+        {
+            if (IMPCN.instance.ShowTextKey.JustPressed)
+            {
+                Item item = Main.HoverItem;
+                if (item == null)
+                {
+                    return;
+                }
 
-	    public override void ProcessTriggers(TriggersSet triggersSet)
-	    {
-		    if (IMPCN.instance.ToggleAddTooltipHotkey.JustPressed)
-		    {
-			    ShowInTooltip = !ShowInTooltip;
-				Main.NewText("在物品说明中显示各版本名称：" + (ShowInTooltip ? "开启" : "关闭"));
-		    }
-	    }
+                ItemWithName info = IMPCNExtension.GetItem(item.type);
+                if (info == null)
+                {
+                    return;
+                }
 
-	    public override void OnEnterWorld(Player player)
+                QueryItemNameCommand.WriteItem(info);
+            }
+        }
+
+        public override void OnEnterWorld(Player player)
         {
             if (LanguageManager.Instance.ActiveCulture == GameCulture.Chinese)
             {

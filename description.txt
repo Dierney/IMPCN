@@ -75,12 +75,12 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [i:3120][c/FFD700:Changelogs][i:3120]
 
 [c/1E90FF:<Mod>]
-[c/FF3030:=== v1.1 ===]
+[c/FF3030:=== v2.0 ===]
 (XXX)
 -Updated <IMPCN>
 -Updated to tModLoader v0.11
 -Code Cleanup & optimization
--Added [QueryItemName] (ID, ImprovedName, OldImprovedName, OriginalName, EnglishName, ClassName) command - @Rebuild
+-Added [QueryItemName] (ID, ImprovedName, OldImprovedName, OriginalName, EnglishName, ClassName) Command&Hotkey - @Rebuild
 -Added more game titles
 -Added Changelogs.txt
 
@@ -285,12 +285,12 @@ Preview version, early access!
 [i:3120][c/FFD700:更新日志][i:3120]
 
 [c/1E90FF:<模组>]
-[c/FF3030:=== v1.1 ===]
+[c/FF3030:=== v2.0 ===]
 (XXX)
 -更新<改良中文>
 -更新至tModLoader v0.11
 -代码清理＆优化
--添加[查询物品名](ID,改良,原版,英文,类名)指令 - @Rebuild
+-添加[查询物品名](ID,改良,原版,英文,类名)指令＆按键 - @Rebuild
 -添加更多游戏标题
 -添加更新日志文本
 

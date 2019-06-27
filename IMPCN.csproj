@@ -37,7 +37,6 @@
     <Compile Include="IMPCN.cs" />
     <Compile Include="IMPCNCommands.cs" />
     <Compile Include="IMPCNExtension.cs" />
-    <Compile Include="IMPCNItem.cs" />
     <Compile Include="IMPCNPlayer.cs" />
     <Compile Include="ItemWithName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,10 +74,7 @@
   <ItemGroup>
     <Content Include="icon.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ChineseReplacementsForThoriumMod\" />
-    <Folder Include="ChineseReplacements\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Analyzer Include="references\log4net.dll" />
   </ItemGroup>
