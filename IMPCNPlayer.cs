@@ -16,8 +16,8 @@ namespace IMPCN
 			    int id;
 			    if (item == null)
 			    {
-				    var tile = Main.tile[Player.tileTargetX, Player.tileTargetY];
-				    if (tile == null)
+				    var tile = Main.tile[Main.mouseX, Main.mouseY];
+				    if (tile == null || tile.type == 0)
 					    return;
 				    id = tile.blockType();
 			    }
