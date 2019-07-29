@@ -41,7 +41,7 @@ namespace IMPCN
 		    }
 	    }
 
-	    public override void OnEnterWorld(Player player)
+        public override void OnEnterWorld(Player player)
         {
             if (LanguageManager.Instance.ActiveCulture == GameCulture.Chinese)
             {
