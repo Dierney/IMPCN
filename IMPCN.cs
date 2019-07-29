@@ -72,7 +72,11 @@ namespace IMPCN
 
         public override void Unload()
         {
+	        instance = null;
+	        random = null;
+	        titles = null;
             ShowTextKey = null;
+            IMPCNExtension.Unload();
         }
 
         // Unfortunately this only works on mod reload. It won't work just by changing languages in game. 
