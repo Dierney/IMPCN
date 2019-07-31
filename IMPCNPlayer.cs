@@ -8,38 +8,41 @@ namespace IMPCN
 {
     public class IMPCNPlayer : ModPlayer
     {
-	    public override void ProcessTriggers(TriggersSet triggersSet)
-	    {
-		    if (IMPCN.instance.ShowTextKey.JustPressed)
-		    {
-			    var item = Main.HoverItem;
-			    int id;
-			    if (item == null)
-			    {
-				    var tile = Main.tile[Main.mouseX, Main.mouseY];
-				    if (tile == null || tile.type == 0)
-					    return;
-				    id = tile.blockType();
-			    }
-			    else
-			    {
-				    id = item.type;
-			    }
-			    var info = IMPCNExtension.GetItem(id);
-			    if (info == null)
-			    {
-				    var modItem = ItemLoader.GetItem(id);
-				    item = modItem.item;
-					info = new ItemWithName(
-						id: id, 
-						clazz: item.GetType().Name, 
-						english: modItem.DisplayName.GetDefault(), 
-						original: modItem.DisplayName.GetTranslation(GameCulture.Chinese)
-					);
-			    }
-			    QueryItemNameCommand.WriteItem(info);
-		    }
-	    }
+        public override void ProcessTriggers(TriggersSet triggersSet)
+        {
+            if (IMPCN.instance.ShowTextKey.JustPressed)
+            {
+                Item item = Main.HoverItem;
+                int id;
+                if (item == null)
+                {
+                    Tile tile = Main.tile[Main.mouseX, Main.mouseY];
+                    if (tile == null || tile.type == 0)
+                    {
+                        return;
+                    }
+
+                    id = tile.blockType();
+                }
+                else
+                {
+                    id = item.type;
+                }
+                ItemWithName info = IMPCNExtension.GetItem(id);
+                if (info == null)
+                {
+                    ModItem modItem = ItemLoader.GetItem(id);
+                    item = modItem.item;
+                    info = new ItemWithName(
+                        id: id,
+                        clazz: item.GetType().Name,
+                        english: modItem.DisplayName.GetDefault(),
+                        original: modItem.DisplayName.GetTranslation(GameCulture.Chinese)
+                    );
+                }
+                QueryItemNameCommand.WriteItem(info);
+            }
+        }
 
         public override void OnEnterWorld(Player player)
         {

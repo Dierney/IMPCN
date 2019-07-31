@@ -1,7 +1,7 @@
 # IMPCN
 [![Terraria](https://img.shields.io/badge/Terraria-tModLoader-brightgreen.svg)](https://forums.terraria.org/index.php?threads/1-3-tmodloader-a-modding-api.23726/) 
-[![tModLoader](https://img.shields.io/badge/tModLoader-v0.11%20Beta%206-orange.svg)](https://github.com/blushiemagic/tModLoader/releases/v0.11-beta6/)
-[![GitHub release](https://img.shields.io/badge/release-1.0-ff69b4.svg)](https://github.com/Dierney/IMPCN/releases/latest)
+[![tModLoader](https://img.shields.io/badge/tModLoader-v0.11.3-orange)](https://github.com/blushiemagic/tModLoader/releases/v0.11.3/)
+[![GitHub release](https://img.shields.io/badge/Releases-v2.0-ff69b4)](https://github.com/Dierney/IMPCN/releases/latest)
 
 IMPCN is a fantastic mod...  
 It improves and polishes the Chinese translation!  

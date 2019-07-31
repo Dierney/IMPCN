@@ -72,9 +72,9 @@ namespace IMPCN
 
         public override void Unload()
         {
-	        instance = null;
-	        random = null;
-	        titles = null;
+            instance = null;
+            random = null;
+            titles = null;
             ShowTextKey = null;
             IMPCNExtension.Unload();
         }

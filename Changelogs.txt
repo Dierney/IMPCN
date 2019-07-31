@@ -1,8 +1,8 @@
 <Mod>
 === v2.0 ===
-(XXX)
+(2019.8.1)
 -Updated <IMPCN>
--Updated to tModLoader v0.11
+-Updated to tModLoader v0.11.3
 -Code Cleanup & optimization
 -Added [QueryItemName] (ID, ImprovedName, OldImprovedName, OriginalName, EnglishName, ClassName) Command&Hotkey - @Rebuild
 -Added more game titles
@@ -82,7 +82,7 @@ Initial Released!
 
 <IMPCN>
 === v1.1 ===
-(XXX)
+(2019.8.1)
 -Amended a lot of texts - thanks @SPRshachuku
 
 === v1.0 ===
@@ -137,9 +137,9 @@ Preview version, early access!
 
 <模组>
 === v2.0 ===
-(XXX)
+(2019.8.1)
 -更新<改良中文>
--更新至tModLoader v0.11
+-更新至tModLoader v0.11.3
 -代码清理＆优化
 -添加[查询物品名](ID,改良,旧版,原版,英文,类名)指令＆按键 - @Rebuild
 -添加更多游戏标题
@@ -219,7 +219,7 @@ Preview version, early access!
 
 <改良中文>
 === v1.1 ===
-(XXX)
+(2019.8.1)
 -修正大量文本 - 感谢@SPRshachuku
 
 === v1.0 ===

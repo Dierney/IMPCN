@@ -76,9 +76,9 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 
 [c/1E90FF:<Mod>]
 [c/FF3030:=== v2.0 ===]
-(XXX)
+(2019.8.1)
 -Updated <IMPCN>
--Updated to tModLoader v0.11
+-Updated to tModLoader v0.11.3
 -Code Cleanup & optimization
 -Added [QueryItemName] (ID, ImprovedName, OldImprovedName, OriginalName, EnglishName, ClassName) Command&Hotkey - @Rebuild
 -Added more game titles
@@ -157,7 +157,7 @@ Initial Released!
 
 [c/1E90FF:<IMPCN>]
 [c/FF3030:=== v1.1 ===]
-(XXX)
+(2019.8.1)
 -Amended a lot of texts - thanks @SPRshachuku
 
 [c/FF3030:=== v1.0 ===]
@@ -286,9 +286,9 @@ Preview version, early access!
 
 [c/1E90FF:<模组>]
 [c/FF3030:=== v2.0 ===]
-(XXX)
+(2019.8.1)
 -更新<改良中文>
--更新至tModLoader v0.11
+-更新至tModLoader v0.11.3
 -代码清理＆优化
 -添加[查询物品名](ID,改良,原版,英文,类名)指令＆按键 - @Rebuild
 -添加更多游戏标题
@@ -367,7 +367,7 @@ Preview version, early access!
 
 [c/1E90FF:<改良中文>]
 [c/FF3030:=== v1.1 ===]
-(XXX)
+(2019.8.1)
 -修正大量文本 - 感谢@SPRshachuku
 
 [c/FF3030:=== v1.0 ===]

@@ -48,14 +48,14 @@ namespace IMPCN
 
         public static void Unload()
         {
-	        HasLoaded = false;
-	        improvedDict = null;
-	        old_improved_1351Dict = null;
-	        old_improved_1344Dict = null;
-	        originalDict = null;
-	        englishDict = null;
-	        idDict = null;
-	        getIdDict = null;
+            HasLoaded = false;
+            improvedDict = null;
+            old_improved_1351Dict = null;
+            old_improved_1344Dict = null;
+            originalDict = null;
+            englishDict = null;
+            idDict = null;
+            getIdDict = null;
         }
 
         public static HashSet<ItemWithName> GetExactItem(string name)
