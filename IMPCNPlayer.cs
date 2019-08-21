@@ -49,7 +49,7 @@ namespace IMPCN
             if (LanguageManager.Instance.ActiveCulture == GameCulture.Chinese)
             {
 
-                Main.NewText("欢迎使用改良中文，请尽情享用吧！", 67, 110, 238, false);
+                Main.NewText("欢迎使用改良中文，请尽情享用吧！", 18, 107, 174, false);
 
                 Mod thoriumMod = ModLoader.GetMod("ThoriumMod");
                 Version fixed_vers = new Version(1, 5, 1, 2);
@@ -61,7 +61,7 @@ namespace IMPCN
 
             else
             {
-                Main.NewText("You didn't select Chinese, so the Improvement of Chinese won't take effect.", 67, 110, 238, false);
+                Main.NewText("You didn't select Chinese, so the Improvement of Chinese won't take effect.", 18, 107, 174, false);
             }
         }
     }

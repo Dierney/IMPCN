@@ -75,6 +75,12 @@ This version of IMPCN is unlike any versions before. Previously we used texts fr
 [i:3120][c/FFD700:Changelogs][i:3120]
 
 [c/1E90FF:<Mod>]
+[c/FF3030:=== v2.1 ===]
+(2019.X.X)
+-Updated <IMPCN>
+-Updated to tModLoader v0.11.4
+-Added the color of displayName
+
 [c/FF3030:=== v2.0 ===]
 (2019.8.1)
 -Updated <IMPCN>
@@ -156,6 +162,10 @@ Initial Released!
 (This version is for testing purposes only)
 
 [c/1E90FF:<IMPCN>]
+[c/FF3030:=== v1.2 ===]
+(2019.X.X)
+-Amended some texts
+
 [c/FF3030:=== v1.1 ===]
 (2019.8.1)
 -Amended a lot of texts - thanks @SPRshachuku
@@ -285,6 +295,12 @@ Preview version, early access!
 [i:3120][c/FFD700:更新日志][i:3120]
 
 [c/1E90FF:<模组>]
+[c/FF3030:=== v2.1 ===]
+(2019.X.X)
+-更新<改良中文>
+-更新至tModLoader v0.11.4
+-添加[显示名称]的颜色
+
 [c/FF3030:=== v2.0 ===]
 (2019.8.1)
 -更新<改良中文>
@@ -366,6 +382,10 @@ Preview version, early access!
 (该版本仅用于测试)
 
 [c/1E90FF:<改良中文>]
+[c/FF3030:=== v1.2 ===]
+(2019.X.X)
+-修正部分文本
+
 [c/FF3030:=== v1.1 ===]
 (2019.8.1)
 -修正大量文本 - 感谢@SPRshachuku
